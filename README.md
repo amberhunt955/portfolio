@@ -10,7 +10,7 @@
 <!-- Project Link -->
 ## Project Link
 
-[amberhunt.netlify.app](amberhunt.netlify.app)
+[amberhunt.netlify.app](https://amberhunt.netlify.app)
 
 <!-- CONTACT -->
 ## Contact
