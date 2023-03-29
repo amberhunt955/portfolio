@@ -9,7 +9,9 @@ function NavBar() {
             <div>Amber Hunt</div>
           </Link>
         </div>
+      </section>
 
+      <section className="right">
         <div className="links-nav">
           <Link to="/projects">
             <div>Projects</div>
@@ -22,14 +24,11 @@ function NavBar() {
           <Link to="/contact">
             <div>Contact</div>
           </Link>
+          
+          <Link to="/blog">
+            <div>Blog</div>
+          </Link>
         </div>
-      </section>
-
-      <section className="right">
-        <Link to="/blog">
-          <div>Blog</div>
-        </Link>
-
       </section>
     </nav>
   );
