@@ -58,8 +58,13 @@
   text-decoration: none;
 }
 
-.page-link {
+.link {
   color: black;
+}
+
+.link:hover {
+  background-color: #E9EDC9;
+  padding: 2px;
 }
 
 .footer {

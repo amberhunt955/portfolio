@@ -7,32 +7,32 @@ function NavBar() {
       <section className="left">
         <div className="home-nav">
           <ScrollLink to="welcome-section" spy={true} smooth={true} offset={-80} duration={500}>
-            <div>Amber Hunt</div>
+            <div className="link">Amber Hunt</div>
           </ScrollLink>
         </div>
 
         <div className="links-nav">
           <ScrollLink to="projects-section" spy={true} smooth={true} offset={-80} duration={500}>
-            <div>Projects</div>
+            <div className="link">Projects</div>
           </ScrollLink>
 
           <ScrollLink to="about-section" spy={true} smooth={true} offset={-80} duration={500}>
-            <div>About</div>
+            <div className="link">About</div>
           </ScrollLink>
 
           <ScrollLink to="contact-section" spy={true} smooth={true} offset={-80} duration={500}>
-            <div>Contact</div>
+            <div className="link">Contact</div>
           </ScrollLink>
         </div>
       </section>
 
       <section className="right">
-          <PageLink to="/media">
-            <div className="page-link">Media</div>
+          <PageLink to="/media" style={ {textDecoration: "none"} }>
+            <div className="link">Media</div>
           </PageLink>
 
-          <PageLink to="/blog">
-            <div className="page-link">Blog</div>
+          <PageLink to="/blog" style={ {textDecoration: "none"} }>
+            <div className="link">Blog</div>
           </PageLink>
       </section>
     </nav>
