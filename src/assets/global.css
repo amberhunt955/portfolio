@@ -9,17 +9,21 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: #E9EDC9;
 }
 
 .nav {
-  min-height: 10vh;
+  position: fixed;
+  min-width: 100%;
+  min-height: 80px;
+  max-height: 80px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding-inline: 1vw;
   gap: 2vw;
-  border: 2px solid red;
+  background-color: #CCD5AE;
 }
 
 .left {
@@ -44,11 +48,28 @@
   gap: 1vw;
 }
 
+.right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1vw;
+  text-decoration: none;
+}
+
+.page-link {
+  color: black;
+}
+
 .footer {
   height: 50px;
   margin-top: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid red;
+  background-color: #CCD5AE;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }

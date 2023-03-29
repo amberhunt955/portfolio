@@ -16,3 +16,6 @@
 ## Contact
 
 Amber Hunt - Find me on [LinkedIn](https://www.linkedin.com/in/amber-hunt-90b612263/)
+
+<!-- RESOURCES -->
+## Resources

@@ -1,34 +1,39 @@
-import { Link } from "react-router-dom";
+import { Link as PageLink } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 
 function NavBar() {
   return (
     <nav className="nav">
       <section className="left">
         <div className="home-nav">
-          <Link to="/">
+          <ScrollLink to="welcome-section" spy={true} smooth={true} offset={-80} duration={500}>
             <div>Amber Hunt</div>
-          </Link>
+          </ScrollLink>
+        </div>
+
+        <div className="links-nav">
+          <ScrollLink to="projects-section" spy={true} smooth={true} offset={-80} duration={500}>
+            <div>Projects</div>
+          </ScrollLink>
+
+          <ScrollLink to="about-section" spy={true} smooth={true} offset={-80} duration={500}>
+            <div>About</div>
+          </ScrollLink>
+
+          <ScrollLink to="contact-section" spy={true} smooth={true} offset={-80} duration={500}>
+            <div>Contact</div>
+          </ScrollLink>
         </div>
       </section>
 
       <section className="right">
-        <div className="links-nav">
-          <Link to="/projects">
-            <div>Projects</div>
-          </Link>
+          <PageLink to="/media">
+            <div className="page-link">Media</div>
+          </PageLink>
 
-          <Link to="/about">
-            <div>About</div>
-          </Link>
-
-          <Link to="/contact">
-            <div>Contact</div>
-          </Link>
-          
-          <Link to="/blog">
-            <div>Blog</div>
-          </Link>
-        </div>
+          <PageLink to="/blog">
+            <div className="page-link">Blog</div>
+          </PageLink>
       </section>
     </nav>
   );

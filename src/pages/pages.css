@@ -1,0 +1,24 @@
+#welcome-section {
+  min-height: 100vh;
+  margin-top: 80px;
+}
+
+#projects-section {
+  min-height: 100vh;
+}
+
+#about-section {
+  min-height: 100vh;
+}
+
+#contact-section {
+  min-height: 100vh;
+}
+
+#blog-page {
+  margin-top: 80px;
+}
+
+#media-page {
+  margin-top: 80px;
+}
