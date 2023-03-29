@@ -28,9 +28,8 @@
 @media only screen and (max-width: 912px) {
   #welcome-section {
     max-height: fit-content;
-    background: url("../assets/welcome-background.jpg") no-repeat fixed;
+    background: url("../assets/welcome-background.jpg") no-repeat top fixed;
     background-size: contain;
-    background-position-y: 5%;
   }
 }
 
