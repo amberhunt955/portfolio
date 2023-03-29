@@ -1,6 +1,8 @@
 #welcome-section {
   min-height: 100vh;
-  margin-top: 80px;
+  margin-top: 50px;
+  background: url("../assets/welcome-background.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
 
 #projects-section {
@@ -16,9 +18,30 @@
 }
 
 #blog-page {
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
 #media-page {
-  margin-top: 80px;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 912px) {
+  #welcome-section {
+    max-height: fit-content;
+    background: url("../assets/welcome-background.jpg") no-repeat fixed;
+    background-size: contain;
+    background-position-y: 5%;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  h1 {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  h1 {
+    font-size: 0.7em;
+  }
 }
