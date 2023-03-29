@@ -1,7 +1,7 @@
-import Welcome from "./main-components/welcome/Welcome";
-import Projects from "./main-components/portfolio/Projects";
-import About from "./main-components/About";
-import Contact from "./main-components/contact/Contact";
+import Welcome from "../components/Welcome";
+import Projects from "../components/Projects";
+import About from "../components/About";
+import Contact from "../components/Contact";
 
 function Main() {
     return (
