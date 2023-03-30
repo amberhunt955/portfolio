@@ -57,6 +57,23 @@
     background: url("../assets/welcome-background.jpg") no-repeat top fixed;
     background-size: contain;
   }
+
+  #projects-section {
+    max-height: fit-content;
+    padding-bottom: 20px;
+  }
+
+  #about-section {
+    max-height: fit-content;
+    min-height: fit-content;
+    padding-bottom: 20px;
+  }
+
+  #contact-section {
+    max-height: fit-content;
+    min-height: fit-content;
+    padding-bottom: 60px;
+  }
 }
 
 @media only screen and (max-width: 540px) {
