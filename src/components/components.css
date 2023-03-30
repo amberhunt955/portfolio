@@ -1,0 +1,39 @@
+#welcome-content {
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.empty-div {
+    min-width: 15vw;
+    max-width: 15vw;
+    min-height: 10vh;
+    max-height: 10vh;
+}
+
+.project-card {
+    min-height: 50vh;
+    min-width: 35vh;
+    max-width: 35vh;
+    border: 2px solid black;
+} 
+
+#about-text {
+    margin-inline: auto;
+    padding-inline: 20px;
+    text-align: center;
+}
+
+.section-header {
+    padding: 20px 0 20px 0;
+    max-width: fit-content;
+    margin-inline: auto;
+    text-align: center;
+}
+
+h2 {
+    padding-bottom: 10px;
+}

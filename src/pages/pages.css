@@ -3,31 +3,57 @@
   margin-top: 50px;
   background: url("../assets/welcome-background.jpg") no-repeat center center fixed;
   background-size: cover;
+  display: flex;
 }
 
 #projects-section {
   min-height: 100vh;
+  background-color: #C1D5EB;
+}
+
+#project-display {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 5vw;
 }
 
 #about-section {
   min-height: 100vh;
+  background-color: #619CCC;
 }
 
 #contact-section {
   min-height: 100vh;
+  background-color: #C1D5EB;
 }
 
 #blog-page {
+  min-height: 80vh;
   margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #C1D5EB;
 }
 
 #media-page {
+  min-height: 80vh;
   margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #C1D5EB;
 }
 
 @media only screen and (max-width: 912px) {
   #welcome-section {
     max-height: fit-content;
+    min-height: 200px;
     background: url("../assets/welcome-background.jpg") no-repeat top fixed;
     background-size: contain;
   }

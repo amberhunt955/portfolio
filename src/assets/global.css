@@ -23,7 +23,7 @@
   align-items: center;
   padding-inline: 1vw;
   gap: 2vw;
-  background-color: #EDE4E0;
+  background-color: #6F8CAC;
 }
 
 .left {
@@ -55,7 +55,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #EDE4E0;
+  background-color: #6F8CAC;
   position: fixed;
   bottom: 0;
   width: 100%;

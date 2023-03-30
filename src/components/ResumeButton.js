@@ -1,6 +1,7 @@
+import { Button } from "@mui/material";
 
 function ResumeButton() {
-    return <button>Download Resume</button>
+    return <Button variant="contained">Download Resume</Button>
 }
 
 export default ResumeButton;
