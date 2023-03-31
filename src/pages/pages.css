@@ -55,7 +55,7 @@
   padding-inline: 20px;
 }
 
-@media screen and (max-device-width: 912px) {
+@media only screen and (max-device-width: 912px) {
   #projects-section {
     padding-bottom: 20px;
   }
@@ -69,25 +69,25 @@
   }
 }
 
-@media screen and (max-device-width: 768px) {
+@media only screen and (max-device-width: 768px) {
   #welcome-section {
     background-position-x: -35vw;
   }
 }
 
-@media screen and (max-device-width: 450px) {
+@media only screen and (max-device-width: 450px) {
   #welcome-section {
     background-position-x: -55vw;
   }
 }
 
-@media screen and (max-device-width: 375px) {
+@media only screen and (max-device-width: 375px) {
   #welcome-section {
     background-position-x: -50vw;
   }
 }
 
-@media screen and (max-device-width: 280px) {
+@media only screen and (max-device-width: 280px) {
   #welcome-section {
     background-position-x: -68vw;
   }
