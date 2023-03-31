@@ -49,44 +49,45 @@
   gap: 20px;
   background-color: #C1D5EB;
   text-align: center;
-  padding: 20px;
+  padding-top: 20px;
   padding-bottom: 50px;
+  padding-inline: 20px;
 }
 
 @media only screen and (max-width: 912px) {
-  #welcome-section {
-    max-height: fit-content;
-    min-height: 200px;
-    background: url("../assets/welcome-background.jpg") no-repeat top fixed;
-    background-size: contain;
-  }
-
   #projects-section {
-    max-height: fit-content;
     padding-bottom: 20px;
   }
 
   #about-section {
-    max-height: fit-content;
-    min-height: fit-content;
     padding-bottom: 20px;
   }
 
   #contact-section {
-    max-height: fit-content;
-    min-height: fit-content;
     padding-bottom: 60px;
   }
 }
 
-@media only screen and (max-width: 540px) {
-  h1 {
-    font-size: 1em;
+@media only screen and (max-width: 768px) {
+  #welcome-section {
+    background-position-x: -35vw;
   }
 }
 
-@media only screen and (max-width: 300px) {
-  h1 {
-    font-size: 0.7em;
+@media only screen and (max-width: 450px) {
+  #welcome-section {
+    background-position-x: -55vw;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #welcome-section {
+    background-position-x: -50vw;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  #welcome-section {
+    background-position-x: -68vw;
   }
 }

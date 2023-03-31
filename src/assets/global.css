@@ -5,6 +5,10 @@
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+html,body{
+  overflow-x: hidden;
+}
+
 .App {
   min-height: 100vh;
   display: flex;
@@ -15,6 +19,7 @@
 .nav {
   position: fixed;
   min-width: 100%;
+  max-width: 100%;
   min-height: 50px;
   max-height: 50px;
   display: flex;
@@ -24,6 +29,7 @@
   padding-inline: 1vw;
   gap: 2vw;
   background-color: #6F8CAC;
+  box-shadow: 0 3px 4px -2px rgba(0,0,0, 1);
 }
 
 .left {
@@ -55,8 +61,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   background-color: #6F8CAC;
   position: fixed;
   bottom: 0;
   width: 100%;
+  box-shadow: 0 -2px 4px -2px rgba(0,0,0, 1);
 }

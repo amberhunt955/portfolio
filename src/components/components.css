@@ -54,7 +54,8 @@ form {
 }
 
 .gallery {
-    max-width: 1230px;
+    /* max-width: 1230px; */
+    max-width: fit-content;
     min-height: fit-content;
     display: flex;
     flex-direction: row;
@@ -64,6 +65,13 @@ form {
     gap: 10px;
     padding-bottom: 20px;
 }
+
+@media only screen and (max-width: 540px) {
+    .gallery {
+      flex-direction: column;
+      flex-wrap: nowrap;
+    }
+  }
 
 .gallery::after {
     content: "";
@@ -80,4 +88,3 @@ form {
     justify-content: center;
     align-items: center;
 }
-
