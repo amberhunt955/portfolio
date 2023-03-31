@@ -1,11 +1,11 @@
-import { useState, useEffect } from "react";
+import { useState, useMemo } from "react";
 import { getDogPhoto } from "../services/dog-api";
 
 function GalleryPhoto() {
   const [dogPhoto, setDogPhoto] = useState(null);
 
-  useEffect(() => {
-    console.log("useEffect triggered");
+  useMemo(() => {
+    console.log("useMemo triggered");
 
     const fetchData = async () => {
       const dogPhoto = await getDogPhoto();
