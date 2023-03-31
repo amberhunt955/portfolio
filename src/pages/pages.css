@@ -41,13 +41,16 @@
 }
 
 #media-page {
-  min-height: 80vh;
+  min-height: fit-content;
   margin-top: 50px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  gap: 20px;
   background-color: #C1D5EB;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 20px;
 }
 
 @media only screen and (max-width: 912px) {

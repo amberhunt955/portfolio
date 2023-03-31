@@ -12,7 +12,9 @@ function Welcome() {
           <br />
           <span>Amber Hunt.</span>
           <br />
-          I'm a MERN stack Software Developer.
+          I'm a MERN stack
+          <br />
+          Software Developer.
         </h1>
         <ResumeButton />
         <div className="empty-div"></div>

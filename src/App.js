@@ -9,11 +9,13 @@ import Main from "./pages/Main";
 import Media from "./pages/Media";
 import Blog from "./pages/Blog";
 
+// Styling
 import "./assets/global.css";
 import "./pages/pages.css";
 import "./components/components.css"
 
 function App() {
+
   return (
     <div className="App">
       <NavBar />
