@@ -8,7 +8,7 @@
 
 #projects-section {
   min-height: 100vh;
-  background-color: #C1D5EB;
+  background-color: #c1d5eb;
 }
 
 #project-display {
@@ -22,12 +22,12 @@
 
 #about-section {
   min-height: 100vh;
-  background-color: #619CCC;
+  background-color: #619ccc;
 }
 
 #contact-section {
   min-height: 100vh;
-  background-color: #C1D5EB;
+  background-color: #c1d5eb;
   padding-inline: 20px;
 }
 
@@ -38,7 +38,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #C1D5EB;
+  background-color: #c1d5eb;
 }
 
 #media-page {
@@ -48,14 +48,18 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  background-color: #C1D5EB;
+  background-color: #c1d5eb;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 50px;
   padding-inline: 20px;
 }
 
-@media only screen and (max-device-width: 912px) {
+/* @media only screen and (max-width: 912px) {
+  #welcome-section {
+    background-position-x: -18vw;
+  }
+
   #projects-section {
     padding-bottom: 20px;
   }
@@ -69,26 +73,30 @@
   }
 }
 
-@media only screen and (max-device-width: 768px) {
+@media only screen and (max-width: 768px) {
   #welcome-section {
     background-position-x: -35vw;
+    background-size: cover contain;
   }
 }
 
-@media only screen and (max-device-width: 450px) {
+@media only screen and (max-width: 450px) {
   #welcome-section {
     background-position-x: -55vw;
+    background-size: cover contain;
   }
 }
 
-@media only screen and (max-device-width: 375px) {
+@media only screen and (max-width: 375px) {
   #welcome-section {
     background-position-x: -50vw;
+    background-size: cover contain;
   }
 }
 
-@media only screen and (max-device-width: 280px) {
+@media only screen and (max-width: 280px) {
   #welcome-section {
     background-position-x: -68vw;
+    background-size: cover contain;
   }
-}
+} */
