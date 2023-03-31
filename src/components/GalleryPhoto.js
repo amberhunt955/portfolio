@@ -16,7 +16,7 @@ function GalleryPhoto() {
     fetchData();
   }, []);
 
-  const loaded = () => <img src={dogPhoto} alt="dog stock photo" />;
+  const loaded = () => <img src={dogPhoto} />;
 
   const loading = () => <p>Image loading...</p>;
 
