@@ -54,12 +54,30 @@ form {
 }
 
 .gallery {
-    max-width: 80vw;
+    max-width: 1230px;
+    min-height: fit-content;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     gap: 10px;
+    padding-bottom: 20px;
+}
+
+.gallery::after {
+    content: "";
+    width: 610px;
+  }
+
+.gallery-image {
+    min-height: 300px;
+    max-height: 300px;
+    min-width: 300px;
+    max-width: 300px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 

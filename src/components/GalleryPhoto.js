@@ -16,11 +16,12 @@ function GalleryPhoto() {
     fetchData();
   }, []);
 
-  const loaded = () => <img src={dogPhoto} alt="stock dog"/>;
+  const loaded = () => <img className="gallery-image" src={dogPhoto} alt="cute dog"/>;
 
-  const loading = () => <p>Image loading...</p>;
+  const loading = () => <p className="gallery-image">Loading...</p>;
 
   return dogPhoto ? loaded() : loading();
+
 }
 
 export default GalleryPhoto;
