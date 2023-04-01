@@ -12,6 +12,7 @@
 #projects-section {
   min-height: 100vh;
   background-color: #c1d5eb;
+  padding-bottom: 20px;
 }
 
 #project-display {
@@ -26,6 +27,12 @@
 #about-section {
   min-height: 100vh;
   background-color: #619ccc;
+  padding-bottom: 20px;
+}
+
+#about-text {
+  line-height: 1.4;
+  max-width: 80vw;
 }
 
 #contact-section {
@@ -58,7 +65,7 @@
   padding-inline: 20px;
 }
 
-@media only screen and (max-width: 912px) and (max-height: 1400px) {
+/* @media only screen and (max-width: 912px) and (max-height: 1400px) {
   #welcome-section {
     background-position-x: -38vw;
   }
@@ -110,4 +117,4 @@
   #welcome-section {
     background-position: 100%;
   }
-}
+} */
