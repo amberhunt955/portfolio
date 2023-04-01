@@ -1,7 +1,9 @@
 #welcome-section {
   min-height: 100vh;
+  max-height: 100vh;
+  max-width: 100vw;
   margin-top: 50px;
-  background: url("../assets/welcome-background.jpg") no-repeat center center fixed;
+  background: url("../assets/welcome-background.jpg") no-repeat center center;
   background-size: cover;
   display: flex;
 }
@@ -54,6 +56,12 @@
   padding-bottom: 50px;
   padding-inline: 20px;
 }
+
+@media only screen and (max-width: 753px, max-height: 607px) {
+  #welcome-section {
+    background-position-x: -1vw;
+  }
+} 
 
 /* @media only screen and (max-width: 912px) {
   #welcome-section {
