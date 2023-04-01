@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router-dom";
 
 // Components
-import NavBar from "./components/NavBar";
-import Footer from "./components/Footer";
+import NavBar from "./components/navigation/NavBar";
+import Footer from "./components/navigation/Footer";
 
 // Pages
 import Main from "./pages/Main";
@@ -11,8 +11,10 @@ import Blog from "./pages/Blog";
 
 // Styling
 import "./assets/global.css";
+import "./components/navigation/navigation.css";
 import "./pages/pages.css";
-import "./components/components.css"
+import "./components/main-sections/sections.css";
+import "./components/components.css";
 
 function App() {
 

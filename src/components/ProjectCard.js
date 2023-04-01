@@ -8,13 +8,21 @@ function ProjectCard(props) {
 
       <p>{props.description}</p>
 
-      <Button variant="outlined" size="small" color="success" href={props.link} target="_blank" rel="noreferrer">
-        Link to Project
-      </Button>
+      <Button 
+        variant="outlined" 
+        size="small" 
+        href={props.link} 
+        target="_blank" 
+        rel="noreferrer"
+      >Link to Project</Button>
 
-      <Button variant="outlined" size="small" color="success" href={props.code} target="_blank" rel="noreferrer">
-        Source Code
-      </Button>
+      <Button 
+        variant="outlined" 
+        size="small" 
+        href={props.code} 
+        target="_blank" 
+        rel="noreferrer"
+      >Source Code</Button>
     </div>
   );
 }

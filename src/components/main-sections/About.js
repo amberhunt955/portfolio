@@ -1,15 +1,14 @@
 function About() {
   return (
     <div id="about-section">
-      <header className="section-header">
-        <h2>About Page</h2>
-      </header>
+      <h2 className="section-header">A LITTLE BIT ABOUT ME</h2>
+
       <div id="about-text">
-        Hey there! I'm Amber, a motivated and dedicated software developer based in Columbus, Ohio. 
+        Hey there! I'm Amber, a motivated and dedicated software developer based in Columbus, Ohio.
         <br />
         <br />
-        I thrive on creating innovative web applications using the MERN stack, and I'm constantly seeking new opportunities to learn and grow in
-        my craft. With a passion for solving complex problems and creating user-friendly experiences, I approach every project with a commitment to
+        I thrive on creating innovative web applications utilizing the MERN stack, and I'm constantly seeking new opportunities to learn and grow in my
+        craft. With a passion for solving complex problems and creating user-friendly experiences, I approach every project with a commitment to
         delivering high-quality solutions.
         <br />
         <br />

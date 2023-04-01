@@ -25,7 +25,7 @@
     min-height: 60vh;
     margin-inline: auto;
     padding: 20px;
-    border: 2px solid black;
+    border: 2px solid #90AECBff;
     border-radius: 20px;
 } 
 
@@ -51,6 +51,11 @@ form {
     flex-direction: column;
     gap: 10px; 
     margin-top: 20px;
+}
+
+#form {
+    max-width: 500px;
+    margin-inline: auto;
 }
 
 input {

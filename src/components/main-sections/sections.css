@@ -1,0 +1,55 @@
+#welcome-section {
+    min-height: 100vh;
+    max-height: 100vh;
+    /* min-width: 100vw;
+    max-width: 100vw; */
+    margin-top: 50px;
+    background: url("/src/assets/welcome-background.jpg") no-repeat center center;
+    background-size: cover;
+    display: flex;
+  }
+
+  #welcome-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #hi {
+    font-size: 0.8em;
+    color: #696B6Bff;
+  }
+
+  #name {
+    font-size: 1.2em;
+    color: #2B5DA4ff;
+  }
+
+  #what-do {
+    font-size: 1em;
+    color: #080B13ff;
+  }
+  
+  #projects-section {
+    min-height: 100vh;
+    /* background-color: #c1d5eb; */
+    padding-bottom: 20px;
+  }
+  
+  #about-section {
+    min-height: 100vh;
+    /* background-color: #619ccc; */
+    padding-bottom: 20px;
+  }
+  
+  #about-text {
+    line-height: 1.4;
+    max-width: 80vw;
+  }
+  
+  #contact-section {
+    min-height: 100vh;
+    /* background-color: #c1d5eb; */
+    padding-inline: 20px;
+    padding-bottom: 60px;
+  }

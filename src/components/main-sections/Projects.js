@@ -1,12 +1,13 @@
-import ProjectCard from "./ProjectCard";
+import ProjectCard from "../ProjectCard";
 
 function Projects() {
   return (
     <div id="projects-section">
       <header className="section-header">
-        <h2>My Projects</h2>
-        <p>Here are some of the projects I've been working on. Check them out!</p>
+        <h2>CHECK OUT MY WORK</h2>
+        <p>Explore some of my recent projects and discover how I'm evolving my skills as a web developer.</p>
       </header>
+
       <div id="project-display">
         <ProjectCard 
           name="2 Player Maze Game" 

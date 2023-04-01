@@ -24,14 +24,19 @@ function Form() {
       });
     }
   return (
-    <form ref={form} onSubmit={sendEmail}>
+    <form ref={form} onSubmit={sendEmail} id="form">
       <label>Your Name:</label>
       <input type="text" name="user_name" />
       <label>Your Email:</label>
       <input type="email" name="user_email" />
       <label>Message:</label>
       <textarea name="message" rows="15" cols="50" required/>
-      <Button variant="contained" type="submit" value="Send" >Submit</Button>
+      <Button 
+        variant="contained" 
+        type="submit" 
+        value="Send" 
+        sx={{background: "#2B5DA4ff", color: "#DBEBFBff"}}
+      >Submit</Button>
     </form>
   );
 }
