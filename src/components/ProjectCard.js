@@ -1,15 +1,20 @@
+
 import { Button } from "@mui/material";
 
-function ProjectCard() {
+function ProjectCard(props) {
   return (
     <div className="project-card">
-      <h3>Project Title</h3>
-      <figure>
-        <img alt="project screenshot"/>
-        <figcaption></figcaption>
-      </figure>
-      <Button variant="outlined" size="small" color="success">Link to Project</Button>
-      <Button variant="outlined" size="small" color="success">Source Code</Button>
+      <h3>{props.name}</h3>
+
+      <p>{props.description}</p>
+
+      <Button variant="outlined" size="small" color="success" href={props.link} target="_blank" rel="noreferrer">
+        Link to Project
+      </Button>
+
+      <Button variant="outlined" size="small" color="success" href={props.code} target="_blank" rel="noreferrer">
+        Source Code
+      </Button>
     </div>
   );
 }

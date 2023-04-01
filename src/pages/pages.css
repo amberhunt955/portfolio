@@ -15,15 +15,6 @@
   padding-bottom: 20px;
 }
 
-#project-display {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  gap: 5vw;
-}
-
 #about-section {
   min-height: 100vh;
   background-color: #619ccc;
@@ -39,6 +30,7 @@
   min-height: 100vh;
   background-color: #c1d5eb;
   padding-inline: 20px;
+  padding-bottom: 60px;
 }
 
 #blog-page {

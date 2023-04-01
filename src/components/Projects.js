@@ -8,10 +8,12 @@ function Projects() {
         <p>Here are some of the projects I've been working on. Check them out!</p>
       </header>
       <div id="project-display">
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
+        <ProjectCard 
+          name="2 Player Maze Game" 
+          description="Depth-first search maze utilizing Vanilla JavaScript, HTML, and CSS."
+          link="https://amberhunt955.github.io/maze-game/"
+          code="https://github.com/amberhunt955/maze-game"
+        />
       </div>
     </div>
   );
