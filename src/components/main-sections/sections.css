@@ -1,3 +1,11 @@
+.section-header {
+    max-width: fit-content;
+    padding: 20px 0 30px;
+    margin-inline: auto;
+    text-align: center;
+    line-height: 1.7;
+}
+
 #welcome-section {
     min-height: 100vh;
     max-height: 100vh;
@@ -32,13 +40,12 @@
   
   #projects-section {
     min-height: 100vh;
-    /* background-color: #c1d5eb; */
-    padding-bottom: 20px;
+    max-height: fit-content;
+    padding: 20px 0;
   }
   
   #about-section {
     min-height: 100vh;
-    /* background-color: #619ccc; */
     padding-bottom: 20px;
   }
   
@@ -49,7 +56,6 @@
   
   #contact-section {
     min-height: 100vh;
-    /* background-color: #c1d5eb; */
     padding-inline: 20px;
     padding-bottom: 60px;
   }

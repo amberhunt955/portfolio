@@ -6,6 +6,8 @@ function ProjectCard(props) {
     <div className="project-card">
       <h3>{props.name}</h3>
 
+      <img src={props.src} alt={props.name} width="300px" height="200px"/>
+
       <p>{props.description}</p>
 
       <Button 
