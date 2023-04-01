@@ -24,7 +24,7 @@ function About() {
         rarely am I satisfied with my results. There is always something to be improved upon!
         <br /><br />
         Please feel free to contact me by sending an email at the form below, or on {" "}
-        <a href="https://www.linkedin.com/in/amber-hunt-90b612263/" target="_blank">LinkedIn</a>. I am always available to discuss job opportunities and my work
+        <a href="https://www.linkedin.com/in/amber-hunt-90b612263/" target="_blank" rel="noreferrer">LinkedIn</a>. I am always available to discuss job opportunities and my work
         experiences.
       </div>
     </div>
