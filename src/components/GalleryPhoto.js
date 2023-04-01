@@ -5,12 +5,9 @@ function GalleryPhoto() {
   const [dogPhoto, setDogPhoto] = useState(null);
 
   useMemo(() => {
-    console.log("useMemo triggered");
-
     const fetchData = async () => {
       const dogPhoto = await getDogPhoto();
       setDogPhoto(dogPhoto.message);
-      console.log(dogPhoto.message);
     };
 
     fetchData();
