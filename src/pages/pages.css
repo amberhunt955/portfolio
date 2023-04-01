@@ -1,10 +1,10 @@
 #welcome-section {
   min-height: 100vh;
   max-height: 100vh;
-  min-width: 100vw;
-  max-width: 100vw;
+  /* min-width: 100vw;
+  max-width: 100vw; */
   margin-top: 50px;
-  background: url("../assets/welcome-background.jpg") no-repeat center fixed;
+  background: url("../assets/welcome-background.jpg") no-repeat center center;
   background-size: cover;
   display: flex;
 }
