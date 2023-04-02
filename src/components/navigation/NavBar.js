@@ -40,21 +40,27 @@ function NavBar() {
             onClose={handleClose}
             TransitionComponent={Fade}
           >
-            <MenuItem onClick={handleClose}>
-              <ScrollLink to="projects-section" spy={true} smooth={true} offset={-80} duration={500}>
-                <div>Projects</div>
+            <MenuItem>
+              <ScrollLink onClick={handleClose} to="welcome-section" spy={true} smooth={true} duration={500}>
+                Top of page
+              </ScrollLink>
+            </MenuItem>
+            
+            <MenuItem>
+              <ScrollLink onClick={handleClose} to="projects-section" spy={true} smooth={true} offset={-30} duration={500}>
+                Projects
               </ScrollLink>
             </MenuItem>
 
-            <MenuItem onClick={handleClose}>
-              <ScrollLink to="about-section" spy={true} smooth={true} offset={-80} duration={500}>
-                <div>About</div>
+            <MenuItem>
+              <ScrollLink onClick={handleClose} to="about-section" spy={true} smooth={true} offset={-30} duration={500}>
+                About
               </ScrollLink>
             </MenuItem>
 
-            <MenuItem onClick={handleClose}>
-              <ScrollLink to="contact-section" spy={true} smooth={true} offset={-80} duration={500}>
-                <div>Contact</div>
+            <MenuItem>
+              <ScrollLink onClick={handleClose} to="contact-section" spy={true} smooth={true} offset={-30} duration={500}>
+                Contact
               </ScrollLink>
             </MenuItem>
           </Menu>

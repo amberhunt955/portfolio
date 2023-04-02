@@ -1,61 +1,125 @@
 .section-header {
-    max-width: fit-content;
-    padding: 20px 0 30px;
-    margin-inline: auto;
-    text-align: center;
-    line-height: 1.7;
+  max-width: fit-content;
+  padding: 15px 0 20px;
+  margin-inline: auto;
+  text-align: center;
+  line-height: 2.5;
 }
 
+/* -------- WELCOME SECTION -------- */
+
 #welcome-section {
-    min-height: 100vh;
-    max-height: 100vh;
-    /* min-width: 100vw;
+  min-height: 100vh;
+  max-height: 100vh;
+  /* min-width: 100vw;
     max-width: 100vw; */
-    margin-top: 50px;
-    background: url("/src/assets/welcome-background.jpg") no-repeat center center;
-    background-size: cover;
-    display: flex;
+  margin-top: 50px;
+  background: url("/src/assets/welcome-background.jpg") no-repeat center center;
+  background-size: cover;
+  /* display: flex; */
+}
+
+.empty-div {
+  min-width: 15vw;
+  max-width: 15vw;
+  min-height: 10vh;
+  max-height: 10vh;
+}
+
+#welcome-content {
+  max-width: fit-content;
+  min-height: 100vh;
+  padding-right: 5vw;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+#welcome-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#hi {
+  font-size: 0.8em;
+  color: #696b6bff;
+}
+
+#name {
+  font-size: 1.2em;
+  color: #2b5da4ff;
+}
+
+#what-do {
+  font-size: 1em;
+  color: #080b13ff;
+}
+
+@media only screen and (max-width: 912px) {
+    #welcome-section {
+      background: url("/src/assets/welcome-background-cropped.jpg") no-repeat left fixed;
+      background-size: cover;
+    }
+  
+    #welcome-content {
+      border: 2px solid red;
+      max-width: fit-content;
+      min-height: 100vh;
+      padding-right: none;
+      padding-top: 3vh;
+      float: right;
+      gap: 2vh;
+    }
   }
 
-  #welcome-text {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+@media only screen and (max-width: 500px) {
+    #welcome-section {
+      background: url("/src/assets/welcome-background-cropped.jpg") no-repeat left fixed;
+      background-size: cover;
+    }
+  
+    #welcome-content {
+      border: 2px solid red;
+      max-width: fit-content;
+      min-height: 100vh;
+      padding-right: none;
+      padding-top: 3vh;
+      float: right;
+      justify-content: flex-start;
+      gap: 2vh;
+    }
   }
 
-  #hi {
-    font-size: 0.8em;
-    color: #696B6Bff;
-  }
+/* -------- PROJECTS SECTION -------- */
 
-  #name {
-    font-size: 1.2em;
-    color: #2B5DA4ff;
-  }
+#projects-section {
+  min-height: 100vh;
+  max-height: fit-content;
+  padding: 0 20px 50px;
+}
 
-  #what-do {
-    font-size: 1em;
-    color: #080B13ff;
-  }
-  
-  #projects-section {
-    min-height: 100vh;
-    max-height: fit-content;
-    padding: 20px 0;
-  }
-  
-  #about-section {
-    min-height: 100vh;
-    padding-bottom: 20px;
-  }
-  
-  #about-text {
-    line-height: 1.4;
-    max-width: 80vw;
-  }
-  
-  #contact-section {
-    min-height: 100vh;
-    padding-inline: 20px;
-    padding-bottom: 60px;
-  }
+/* -------- ABOUT SECTION -------- */
+
+#about-section {
+  min-height: 100vh;
+  padding: 0 20px 20px;
+}
+
+#about-text {
+  line-height: 1.4;
+  margin-inline: auto;
+  text-align: center;
+}
+
+/* -------- CONTACT SECTION -------- */
+
+#contact-section {
+  min-height: 100vh;
+  max-height: fit-content;
+  padding-inline: 20px;
+  padding-bottom: 60px;
+}

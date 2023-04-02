@@ -11,9 +11,9 @@ html, body {
 
 .App {
   min-height: 100vh;
+  min-width: 100vw;
   display: flex;
   flex-direction: column;
-  /* background-color: #C1D5EB; */
   background-color: #080B13ff;
   color: #DBEBFBff;
 }

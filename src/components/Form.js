@@ -30,7 +30,7 @@ function Form() {
       <label>Your Email:</label>
       <input type="email" name="user_email" />
       <label>Message:</label>
-      <textarea name="message" rows="15" cols="50" required/>
+      <textarea name="message" rows="12" cols="50" required/>
       <Button 
         variant="contained" 
         type="submit" 

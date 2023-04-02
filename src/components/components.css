@@ -1,105 +1,34 @@
-#welcome-content {
-    max-width: fit-content;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-}
-
-.empty-div {
-    min-width: 15vw;
-    max-width: 15vw;
-    min-height: 10vh;
-    max-height: 10vh;
-}
-
 .project-card {
+    margin-inline: auto;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
     text-align: center;
-    max-width: 400px;
+    max-width: 350px;
     min-height: 60vh;
-    margin-inline: auto;
-    padding: 20px;
     border: 2px solid #90AECBff;
-    border-radius: 20px;
+    border-radius: 10px;
 } 
 
-#about-text {
-    margin-inline: auto;
-    padding-inline: 20px;
-    text-align: center;
-}
-
-h2 {
-    padding-bottom: 10px;
-}
-
-form {
+.project-buttons {
     display: flex;
-    flex-direction: column;
-    gap: 10px; 
-    margin-top: 20px;
+    flex-direction: row;
+    gap: 10px;
 }
 
 #form {
-    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    max-width: 400px;
+    max-height: 70vh;
     margin-inline: auto;
-}
-
-input {
-    width: 100%;
 }
 
 input, textarea {
     border-radius: 5px;
-    padding: 12px 20px;
-}
-
-.project-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 0 20px 0;
-}
-
-.gallery {
-    /* max-width: 1230px; */
-    max-width: fit-content;
-    min-height: fit-content;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding-bottom: 20px;
-}
-
-@media only screen and (max-width: 540px) {
-    .gallery {
-      flex-direction: column;
-      flex-wrap: nowrap;
-    }
-  }
-
-.gallery::after {
-    content: "";
-    width: 610px;
-  }
-
-.gallery-image {
-    min-height: 300px;
-    max-height: 300px;
-    min-width: 300px;
-    max-width: 300px;
-    object-fit: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 10px 20px;
 }

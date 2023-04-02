@@ -27,7 +27,7 @@ function Footer() {
   return (
     <footer className={footer ? "visible-footer" : "hidden-footer"}>
       <div>© Amber Hunt 2023</div>
-      <div>Back to top</div>
+      <a href="#welcome-section" id="back-to-top">BACK TO TOP</a>
     </footer>
   );
 }
