@@ -12,7 +12,7 @@ function Projects() {
         <ProjectCard 
           name="Maze Duel: Race to the Opposite Corner" 
           src="https://user-images.githubusercontent.com/122638466/223304807-bfc8bff4-7b25-4883-a8e1-98b161638638.png"
-          description="Two-player game in a depth-first search randomly generated maze. Technologies: Vanilla JavaScript, HTML, and CSS."
+          description="Two-player desktop game in a depth-first search randomly generated maze. Technologies: Vanilla JavaScript, HTML, and CSS."
           link="https://amberhunt955.github.io/maze-game/"
           code="https://github.com/amberhunt955/maze-game"
         />
