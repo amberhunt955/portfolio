@@ -8,7 +8,7 @@
     gap: 20px;
     text-align: center;
     max-width: 350px;
-    min-height: 60vh;
+    min-height: fit-content;
     border: 2px solid #90AECBff;
     border-radius: 10px;
 } 

@@ -3,12 +3,6 @@ import ResumeButton from "../ResumeButton";
 function Welcome() {
   return (
     <div id="welcome-section">
-      {/* <div className="empty-div"></div>
-
-      <div className="empty-div"></div>
-      
-      <div className="empty-div"></div> */}
-
       <div id="welcome-content">
         <h1 id="welcome-text">
           <span id="hi">Hi, my name is </span>
