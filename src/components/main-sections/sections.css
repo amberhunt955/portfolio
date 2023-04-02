@@ -21,7 +21,7 @@
   /* min-width: 100vw;
     max-width: 100vw; */
   margin-top: 50px;
-  background: url("/src/assets/welcome-background-cropped.jpg") no-repeat left center fixed;
+  background: url("/src/assets/welcome-background-cropped.jpg") no-repeat center center;
   background-size: cover;
   /* display: flex; */
 }
