@@ -21,8 +21,12 @@ function NavBar() {
     setAnchorEl(null);
   };
 
+  const scrollToTop = () => {
+    window.scrollTo({top: 0, left: 0, behavior: "smooth"})
+  }
+
   return (
-    <nav className="nav">
+    <nav id="nav">
       <section className="left">
         <div className="home-nav">
           <PageLink to="/" style={{ textDecoration: "none" }}>
@@ -49,7 +53,7 @@ function NavBar() {
             TransitionComponent={Fade}
           >
             <MenuItem>
-              <ScrollLink onClick={handleClose} to="welcome-section" spy={true} smooth={true} duration={500}>
+              <ScrollLink onClick={() => {handleClose(); scrollToTop();}} spy={true} smooth={true} duration={500}>
                 Top of page
               </ScrollLink>
             </MenuItem>

@@ -2,7 +2,7 @@
 function Blog() {
   return (
     <div id="blog-page">
-      <h1>Blog Page</h1>
+      <h1 className="top">Blog Page</h1>
       <p>Coming soon...</p>
     </div>
   )

@@ -8,7 +8,7 @@ function About() {
 
       <div id="about-content">
         <div id="about-text">
-          Hey there! I'm Amber, a motivated and dedicated software developer based in Columbus, Ohio.
+          Hey there! I'm Amber, a motivated and dedicated software engineer based in Columbus, Ohio.
           <br />
           <br />
           I thrive on creating innovative web applications utilizing the MERN stack, and I'm constantly seeking new opportunities to learn and grow in
