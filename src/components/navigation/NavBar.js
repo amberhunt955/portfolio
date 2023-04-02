@@ -1,4 +1,4 @@
-import { Link as PageLink } from "react-router-dom";
+import { Link as PageLink, useLocation } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
 
 import { useState } from "react";
@@ -7,9 +7,16 @@ import { Button, Menu, MenuItem, Fade } from "@mui/material";
 function NavBar() {
   const [anchorEl, setAnchorEl] = useState(null);
   const open = Boolean(anchorEl);
+  const location = useLocation();
+
   const handleClick = (event) => {
-    setAnchorEl(event.currentTarget);
+    if (location.pathname === "/") {
+      setAnchorEl(event.currentTarget);
+    } else {
+      console.log("it worked");
+    }
   };
+
   const handleClose = () => {
     setAnchorEl(null);
   };
@@ -19,7 +26,8 @@ function NavBar() {
       <section className="left">
         <div className="home-nav">
           <PageLink to="/" style={{ textDecoration: "none" }}>
-            <Button style={{ color: "black" }}
+            <Button
+              style={{ color: "black" }}
               id="fade-button"
               aria-controls={open ? "fade-menu" : undefined}
               aria-haspopup="true"
@@ -45,7 +53,7 @@ function NavBar() {
                 Top of page
               </ScrollLink>
             </MenuItem>
-            
+
             <MenuItem>
               <ScrollLink onClick={handleClose} to="projects-section" spy={true} smooth={true} offset={-30} duration={500}>
                 Projects
@@ -69,11 +77,15 @@ function NavBar() {
 
       <section className="right">
         <PageLink to="/media" style={{ textDecoration: "none" }}>
-          <Button id="fade-button" style={{ color: "black" }}>Media</Button>
+          <Button id="fade-button" style={{ color: "black" }}>
+            Media
+          </Button>
         </PageLink>
 
         <PageLink to="/blog" style={{ textDecoration: "none" }}>
-          <Button id="fade-button" style={{ color: "black" }}>Blog</Button>
+          <Button id="fade-button" style={{ color: "black" }}>
+            Blog
+          </Button>
         </PageLink>
       </section>
     </nav>

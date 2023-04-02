@@ -8,7 +8,7 @@
 
 @media only screen and (max-width: 500px) {
     .section-header {
-      line-height: 1.2;
+      line-height: 1.7;
       padding-top: 35px;
     }
   }
@@ -36,7 +36,7 @@
 #welcome-content {
   max-width: fit-content;
   min-height: 100vh;
-  padding-right: 5vw;
+  padding-inline: 5vw;
   float: right;
   display: flex;
   flex-direction: column;
