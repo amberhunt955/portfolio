@@ -1,4 +1,5 @@
 import { Button } from "@mui/material";
+import { Send } from "@mui/icons-material";
 
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
@@ -25,18 +26,20 @@ function Form() {
     }
   return (
     <form ref={form} onSubmit={sendEmail} id="form">
-      <label>Your Name:</label>
+      <label>Your Name: </label>
       <input type="text" name="user_name" />
-      <label>Your Email:</label>
+      <label>Your Email: </label>
       <input type="email" name="user_email" />
       <label>Message:</label>
       <textarea name="message" rows="12" cols="50" required/>
       <Button 
+        id="email-submit"
         variant="contained" 
         type="submit" 
         value="Send" 
+        endIcon={<Send />}
         sx={{background: "#2B5DA4ff", color: "#DBEBFBff"}}
-      >Submit</Button>
+      >Send</Button>
     </form>
   );
 }

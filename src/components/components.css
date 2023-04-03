@@ -23,7 +23,7 @@
     .project-card {
         min-width: fit-content;
     }
-    
+
     .project-photo {
       width: 180px;
       height: 120px;
@@ -42,4 +42,14 @@
 input, textarea {
     border-radius: 5px;
     padding: 10px 20px;
+}
+
+input {
+    min-width: 100%;
+}
+
+#email-submit {
+    margin-top: 10px;
+    max-width: fit-content;
+    margin-inline: auto;
 }

@@ -3,17 +3,21 @@ import { Link as ScrollLink } from "react-scroll";
 
 import { useState } from "react";
 import { Button, Menu, MenuItem, Fade } from "@mui/material";
+import { Menu as MenuIcon, Home } from "@mui/icons-material";
 
 function NavBar() {
   const [anchorEl, setAnchorEl] = useState(null);
+  const [icon, setIcon] = useState(<MenuIcon />)
   const open = Boolean(anchorEl);
   const location = useLocation();
 
   const handleClick = (event) => {
-    if (location.pathname === "/") {
+    if (location.pathname === "/" && event.currentTarget.id === "main") {
       setAnchorEl(event.currentTarget);
+    } else if (event.currentTarget.id === "main") {
+      setIcon(<MenuIcon />);
     } else {
-      console.log("it worked");
+      setIcon(<Home />);
     }
   };
 
@@ -29,16 +33,16 @@ function NavBar() {
     <nav id="nav">
       <section className="left">
         <div className="home-nav">
-          <PageLink to="/" style={{ textDecoration: "none" }}>
+          <PageLink to="/" style={{ textDecoration: "none"}}>
             <Button
               style={{ color: "black" }}
-              id="fade-button"
+              id="main"
               aria-controls={open ? "fade-menu" : undefined}
               aria-haspopup="true"
               aria-expanded={open ? "true" : undefined}
               onClick={handleClick}
+              startIcon={icon}
             >
-              Home
             </Button>
           </PageLink>
 
@@ -53,8 +57,8 @@ function NavBar() {
             TransitionComponent={Fade}
           >
             <MenuItem>
-              <ScrollLink onClick={() => {handleClose(); scrollToTop();}} spy={true} smooth={true} duration={500}>
-                Top of page
+              <ScrollLink to="" onClick={() => {handleClose(); scrollToTop();}} spy={true} smooth={true} duration={500}>
+                Top / Resume
               </ScrollLink>
             </MenuItem>
 
@@ -81,13 +85,13 @@ function NavBar() {
 
       <section className="right">
         <PageLink to="/media" style={{ textDecoration: "none" }}>
-          <Button id="fade-button" style={{ color: "black" }}>
+          <Button onClick={handleClick} id="fade-button" style={{ color: "black" }}>
             Media
           </Button>
         </PageLink>
 
         <PageLink to="/blog" style={{ textDecoration: "none" }}>
-          <Button id="fade-button" style={{ color: "black" }}>
+          <Button onClick={handleClick} id="fade-button" style={{ color: "black" }}>
             Blog
           </Button>
         </PageLink>

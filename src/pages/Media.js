@@ -1,6 +1,13 @@
+import { useEffect } from "react";
+
 import GalleryPhoto from "../components/GalleryPhoto";
 
 function Media() {
+
+  useEffect(() => {
+    window.scrollTo(0,0);
+  }, []);
+
   return (
     <div id="media-page">
       <h1 id="media-title" className="top">Media Page</h1>

@@ -1,5 +1,10 @@
+import { useEffect } from "react";
 
 function Blog() {
+  useEffect(() => {
+    window.scrollTo(0,0);
+  }, []);
+
   return (
     <div id="blog-page">
       <h1 className="top">Blog Page</h1>

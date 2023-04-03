@@ -1,4 +1,5 @@
 import { Button } from "@mui/material";
+import { OpenInNew } from "@mui/icons-material";
 
 function ProjectCard(props) {
   return (
@@ -10,11 +11,11 @@ function ProjectCard(props) {
       <p>{props.description}</p>
 
       <div className="project-buttons">
-        <Button variant="outlined" size="small" href={props.link} target="_blank" rel="noreferrer">
+        <Button variant="outlined" size="small" href={props.link} target="_blank" rel="noreferrer" endIcon={<OpenInNew />}>
           View Project
         </Button>
 
-        <Button variant="outlined" size="small" href={props.code} target="_blank" rel="noreferrer">
+        <Button variant="outlined" size="small" href={props.code} target="_blank" rel="noreferrer" endIcon={<OpenInNew />}>
           Source Code
         </Button>
       </div>
