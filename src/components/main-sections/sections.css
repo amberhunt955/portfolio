@@ -83,8 +83,11 @@
 }
 
 @media only screen and (max-width: 912px) {
-    #welcome-content {
+    #welcome-section {
       background: url("/src/assets/welcome-background-cropped-enhanced2.jpg") no-repeat left;
+    }
+
+    #welcome-content {
       max-width: fit-content;
       min-height: 100vh;
       padding-right: none;
