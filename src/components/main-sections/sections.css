@@ -85,6 +85,7 @@
 @media only screen and (max-width: 912px) {
     #welcome-section {
       background: url("/src/assets/welcome-background-cropped-enhanced2.jpg") no-repeat left;
+      background-size: cover;
     }
 
     #welcome-content {
