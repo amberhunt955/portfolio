@@ -138,7 +138,8 @@
 
 @media only screen and (max-width: 500px) {
   #project-text {
-    margin-inline: 80vw; 
+    max-width: 80vw; 
+    margin-inline: auto;
   }
 }
 
@@ -190,7 +191,7 @@
 
 @media only screen and (max-width: 500px) {
   #about-content {
-    margin-bottom: 30px; 
+    padding-bottom: 30px; 
   }
 }
 
