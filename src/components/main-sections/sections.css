@@ -1,9 +1,9 @@
 .section-header {
   max-width: fit-content;
-  padding: 15px 0 20px;
+  padding-top: 25px;
   margin-inline: auto;
   text-align: center;
-  line-height: 2;
+  line-height: 1;
 }
 
 @media only screen and (max-width: 500px) {
@@ -127,6 +127,13 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 2vw;
+}
+
+#project-text {
+  max-width: 50%;
+  margin-inline: auto;
+  text-align: center;
 }
 
 /* -------- ABOUT SECTION -------- */
@@ -145,6 +152,7 @@
   flex-direction: row;
   align-items: center;
   gap: 5vw;
+  padding-top: 10px;
 }
 
 #about-text {
@@ -188,4 +196,11 @@
   max-height: fit-content;
   padding-inline: 20px;
   padding-bottom: 60px;
+}
+
+#contact-text {
+  max-width: 50%;
+  margin-inline: auto;
+  padding: 20px 0 20px;
+  text-align: center;
 }

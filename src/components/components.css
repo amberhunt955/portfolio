@@ -5,17 +5,18 @@
 
 .project-card {
     margin-inline: auto;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 1vh;
+    gap: 1.5vh;
     text-align: center;
-    max-width: 410px;
+    max-width: 510px;
     min-height: fit-content;
     border: 2px solid #90AECBff;
     border-radius: 10px;
+    margin-bottom: 10px;
 } 
 
 .project-buttons {

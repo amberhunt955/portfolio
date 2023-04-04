@@ -26,7 +26,7 @@
 
 <p>There are still a lot of improvements I would like to make. The work never ends! On the home page, I want to have the content fade in as you scroll to each section. I also want to find a way to have the footer appear every time you visit the very bottom of the page - but also keep the currently functionality on other parts of the page where it only appears on up scrolls.</p>
 
-<p>I'm still fine-tuning the overall responsiveness with font sizes. But so far, I'm pretty happy with how it translates across devices</p>
+<p>I'm still fine-tuning the overall responsiveness with font sizes. But so far, I'm pretty happy with how it translates across devices.</p>
 
 <p>Eventually, I will also add some personal photos to the gallery from my adventures. I also want to create a blog.</p>
 
