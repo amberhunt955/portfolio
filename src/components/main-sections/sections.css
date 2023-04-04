@@ -136,6 +136,12 @@
   text-align: center;
 }
 
+@media only screen and (max-width: 500px) {
+  #project-text {
+    margin-bottom: 80vw; 
+  }
+}
+
 /* -------- ABOUT SECTION -------- */
 
 #about-section {
@@ -179,6 +185,12 @@
   #about-content {
     flex-direction: column-reverse;
     padding-inline: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #about-content {
+    margin-bottom: 30px; 
   }
 }
 
