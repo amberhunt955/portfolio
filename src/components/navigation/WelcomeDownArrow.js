@@ -3,7 +3,7 @@ import { ArrowDownward } from "@mui/icons-material";
 
 import { Link as ScrollLink } from "react-scroll";
 
-function DownArrow() {
+function WelcomeDownArrow() {
   return (
     <footer id="icon-footer">
       <ScrollLink to="projects-section" spy={true} smooth={true} offset={-30} duration={500}>
@@ -15,4 +15,4 @@ function DownArrow() {
   );
 }
 
-export default DownArrow;
+export default WelcomeDownArrow;

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@mui/material";
-import { ArrowUpward } from "@mui/icons-material";
+import { ArrowUpward, GitHub, LinkedIn } from "@mui/icons-material";
 
 function Footer() {
   const [prevScrollPosition, setPrevScrollPosition] = useState(window.pageYOffset);
@@ -28,7 +28,11 @@ function Footer() {
 
   return (
     <footer className={footer ? "visible-footer" : "hidden-footer"}>
-      <div>© Amber Hunt 2023</div>
+      <div id="lefthand-footer">
+        <p>© Amber Hunt 2023</p>
+        <a href="https://www.linkedin.com/in/amber-hunt-90b612263/" target="_blank" rel="noreferrer"><LinkedIn /></a>
+        <a href="https://github.com/amberhunt955" target="_blank" rel="noreferrer"><GitHub /></a>
+      </div>
       <Button id="back-to-top" onClick={() => window.scrollTo({top: 0, left: 0, behavior: "smooth"})} endIcon={<ArrowUpward />}>BACK TO TOP</Button>
     </footer>
   );

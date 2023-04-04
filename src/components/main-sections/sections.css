@@ -3,7 +3,7 @@
   padding: 15px 0 20px;
   margin-inline: auto;
   text-align: center;
-  line-height: 2.5;
+  line-height: 2;
 }
 
 @media only screen and (max-width: 500px) {
@@ -122,15 +122,21 @@
 
 #projects-section {
   min-height: 100vh;
-  max-height: fit-content;
-  padding: 0 20px 50px;
+  max-height: 100vh;
+  padding: 0 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* -------- ABOUT SECTION -------- */
 
 #about-section {
   min-height: 100vh;
-  padding: 0 20px 20px;
+  padding: 0 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 #about-content {

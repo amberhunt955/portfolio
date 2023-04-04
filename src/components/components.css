@@ -10,9 +10,9 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 1vh;
     text-align: center;
-    max-width: 350px;
+    max-width: 410px;
     min-height: fit-content;
     border: 2px solid #90AECBff;
     border-radius: 10px;
@@ -22,6 +22,12 @@
     display: flex;
     flex-direction: row;
     gap: 10px;
+}
+
+@media only screen and (max-width:500px) {
+    .project-card {
+        max-width: 350px;
+    }
 }
 
 @media only screen and (max-width:300px) {

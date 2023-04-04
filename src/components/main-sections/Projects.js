@@ -1,4 +1,5 @@
 import ProjectCard from "../ProjectCard";
+import ProjectDownArrow from "../navigation/ProjectDownArrow";
 
 function Projects() {
   return (
@@ -17,6 +18,7 @@ function Projects() {
           code="https://github.com/amberhunt955/maze-game"
         />
       </div>
+      <ProjectDownArrow id="project-down"/>
     </div>
   );
 }

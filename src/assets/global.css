@@ -17,3 +17,21 @@ html, body {
   background-color: #080B13ff;
   color: #DBEBFBff;
 }
+
+h2 {
+  font-size: calc(1.8vw + 1.8vh);
+}
+
+p {
+  font-size: calc(1vw + 1vh);
+}
+
+a {
+  color: black;
+}
+
+@media only screen and (max-width:900px) {
+  p {
+    font-size: 16px;
+  }
+}
