@@ -7,6 +7,7 @@ function Projects() {
       <header className="section-header">
         <h2>CHECK OUT MY WORK</h2>
         <p>Explore some of my recent projects and discover how I'm evolving my skills as a web developer.</p>
+        <br/>
       </header>
 
       <div id="project-display">
