@@ -1,3 +1,8 @@
+#resume-button {
+    width: fit-content;
+    font-size: calc(1vw + 1vh);
+}
+
 .project-card {
     margin-inline: auto;
     padding: 20px;
