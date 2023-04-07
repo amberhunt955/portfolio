@@ -76,7 +76,7 @@
   transform: scale(4);
 }
 
-@media only screen and (max-width: 912px) {
+@media only screen and (max-width: 950px) {
   #down-arrow {
     display: none;
   }

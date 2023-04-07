@@ -122,7 +122,7 @@
 
 #projects-section {
   min-height: 100vh;
-  max-height: 100vh;
+  max-height: fit-content;
   padding: 0 20px 40px;
   display: flex;
   flex-direction: column;
@@ -136,10 +136,21 @@
   text-align: center;
 }
 
+#project-display {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
 @media only screen and (max-width: 500px) {
   #project-text {
     max-width: 80vw; 
     margin-inline: auto;
+  }
+
+  #project-display {
+    flex-direction: column;
   }
 }
 

@@ -3,6 +3,18 @@
     font-size: calc(1vw + 1vh);
 }
 
+@media only screen and (max-width:900px) {
+    #resume-button {
+        margin-right: 25px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    #resume-button {
+        margin-right: 5px;
+    }
+}
+
 .project-card {
     margin-inline: auto;
     padding: 10px;
