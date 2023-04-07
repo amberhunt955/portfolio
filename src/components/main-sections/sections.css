@@ -160,7 +160,7 @@
 
   #project-display {
     flex-direction: column;
-    padding-top: 10px;
+    padding-top: 2vh;
   }
 }
 
@@ -245,6 +245,12 @@
   margin-inline: auto;
   padding: 20px 0 20px;
   text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+  #contact-text {
+    max-width: 100%;
+  }
 }
 
 
