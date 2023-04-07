@@ -143,6 +143,15 @@
   gap: 10px;
 }
 
+/* REMOVE SPACE-BETWEEN ON SECTIONS FOR IPAD */
+
+@media only screen and (max-width: 950px) {
+  #projects-section {
+    justify-content: flex-start;
+    gap: 2vh;
+  }
+}
+
 @media only screen and (max-width: 500px) {
   #project-text {
     max-width: 80vw; 
@@ -151,6 +160,7 @@
 
   #project-display {
     flex-direction: column;
+    padding-top: 10px;
   }
 }
 
@@ -194,15 +204,23 @@
 }
 
 @media only screen and (max-width: 950px) {
+  #about-section {
+    justify-content: flex-start;
+    gap: 2vh;
+  }
+  
   #about-content {
     flex-direction: column-reverse;
     padding-inline: 20px;
+    width: 70%;
+    margin-inline: auto;
   }
 }
 
 @media only screen and (max-width: 500px) {
   #about-content {
     padding-bottom: 30px; 
+    width: 100%;
   }
 }
 
@@ -228,3 +246,5 @@
   padding: 20px 0 20px;
   text-align: center;
 }
+
+
