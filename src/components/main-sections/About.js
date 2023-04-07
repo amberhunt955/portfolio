@@ -1,7 +1,6 @@
-import amberPhoto from "./amber-ai.png";
 import { Avatar } from "@mui/material";
-
-import AboutDownArrow from "../navigation/AboutDownArrow";
+import amberPhoto from "./amber-ai.png";
+import DownArrow from "../navigation/DownArrow";
 
 function About() {
   return (
@@ -25,7 +24,7 @@ function About() {
 
         <Avatar id="bio-photo" src={amberPhoto} alt="AI-generated painting of amber" sx={{ width: 300, height: 300 }} />
       </div>
-      <AboutDownArrow />
+      <DownArrow nextSection="contact-section"/>
     </div>
   );
 }

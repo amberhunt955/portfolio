@@ -33,7 +33,7 @@ function Footer() {
         <a href="https://www.linkedin.com/in/amber-hunt-90b612263/" target="_blank" rel="noreferrer"><LinkedIn /></a>
         <a href="https://github.com/amberhunt955" target="_blank" rel="noreferrer"><GitHub /></a>
       </div>
-      <Button id="back-to-top" onClick={() => window.scrollTo({top: 0, left: 0, behavior: "smooth"})} endIcon={<ArrowUpward />}>BACK TO TOP</Button>
+      <Button id="back-to-top" onClick={() => window.scrollTo({top: 0, left: 0, behavior: "smooth"})} endIcon={<ArrowUpward fontSize="calc(1vw + 1vh)" />}>BACK TO TOP</Button>
     </footer>
   );
 }

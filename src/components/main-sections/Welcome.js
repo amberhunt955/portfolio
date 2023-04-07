@@ -1,5 +1,5 @@
 import ResumeButton from "../ResumeButton";
-import WelcomeDownArrow from "../navigation/WelcomeDownArrow";
+import LearnMore from "../navigation/LearnMore";
 
 function Welcome() {
   return (
@@ -15,7 +15,7 @@ function Welcome() {
 
         <ResumeButton />
 
-        <WelcomeDownArrow />
+        <LearnMore />
       </div>
     </div>
   );

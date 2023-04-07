@@ -4,11 +4,14 @@ import { ArrowDownward } from "@mui/icons-material";
 import { Link as ScrollLink } from "react-scroll";
 import { useState } from "react";
 
-function WelcomeDownArrow() {
+import DownArrow from "./DownArrow";
+
+function LearnMore() {
   const [display, setDisplay] = useState(true);
 
   const handleClick = () => {
     setDisplay(false);
+    DownArrow.display = true;
   }
 
   return (
@@ -22,4 +25,4 @@ function WelcomeDownArrow() {
   );
 }
 
-export default WelcomeDownArrow;
+export default LearnMore;

@@ -104,12 +104,17 @@
   padding-inline: 10px;
 }
 
+#back-to-top {
+  font-size: calc(1vw + 1vh);
+}
+
 #lefthand-footer {
   max-width: fit-content;
   display: flex;
   justify-content: space-evenly;
   gap: 10px;
   align-items: center;
+  font-size: calc(1vw + 1vh);
 }
 
 .hidden-footer {
