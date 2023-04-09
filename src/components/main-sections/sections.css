@@ -130,6 +130,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   gap: 2vw;
 }
 
@@ -177,6 +178,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
 }
 
 #about-content {
@@ -248,6 +250,7 @@
   max-width: 90vw;
   margin-inline: auto;
   padding-inline: 0 20px 60px;
+  align-items: center;
 }
 
 #contact-text {
