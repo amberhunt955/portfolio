@@ -87,21 +87,21 @@
 }
 
 .visible-footer {
+  position: fixed;
   height: 50px;
+  width: 100%;
   margin-top: auto;
+  bottom: 0;
+  padding-inline: 2vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 10px;
+  gap: 2vw;
   text-align: center;
   background-color: #696b6bff;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
   box-shadow: 0 -2px 4px -2px rgba(0, 0, 0, 1);
   color: #080b13ff;
   z-index: 99;
-  padding-inline: 10px;
 }
 
 #back-to-top {
@@ -114,7 +114,7 @@
   justify-content: space-evenly;
   gap: 10px;
   align-items: center;
-  font-size: calc(1vw + 1vh);
+  font-size: calc(0.8vw + 0.8vh);
 }
 
 .hidden-footer {

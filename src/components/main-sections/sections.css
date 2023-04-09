@@ -18,6 +18,7 @@
 #welcome-section {
   min-height: 100vh;
   max-height: 100vh;
+  padding-right: 2vw;
   /* min-width: 100vw;
     max-width: 100vw; */
   margin-top: 50px;
@@ -123,7 +124,9 @@
 #projects-section {
   min-height: 100vh;
   max-height: fit-content;
-  padding: 0 20px 40px;
+  max-width: 90vw;
+  margin-inline: auto;
+  padding: 0 2vw 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -167,8 +170,10 @@
 /* -------- ABOUT SECTION -------- */
 
 #about-section {
+  max-width: 90vw;
+  margin-inline: auto;
   min-height: 100vh;
-  padding: 0 20px 40px;
+  padding: 0 2vw 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -218,6 +223,10 @@
 }
 
 @media only screen and (max-width: 500px) {
+  #about-section {
+    max-width: 100vw;
+  }
+
   #about-content {
     padding-bottom: 30px; 
     width: 100%;
@@ -236,8 +245,9 @@
 #contact-section {
   min-height: 100vh;
   max-height: fit-content;
-  padding-inline: 20px;
-  padding-bottom: 60px;
+  max-width: 90vw;
+  margin-inline: auto;
+  padding-inline: 0 20px 60px;
 }
 
 #contact-text {
