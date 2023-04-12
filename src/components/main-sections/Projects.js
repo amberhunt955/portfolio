@@ -26,6 +26,7 @@ function Projects() {
           code="https://github.com/amberhunt955/space-battle"
         />
       </div>
+      
       <DownArrow nextSection="about-section" />
     </div>
   );

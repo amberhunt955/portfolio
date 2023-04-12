@@ -58,7 +58,7 @@
     display: flex;
     flex-direction: column;
     gap: calc(0.8vw + 0.8vh); 
-    max-width: 400px;
+    max-width: 50vw;
     max-height: 70vh;
     margin-inline: auto;
 }
@@ -76,4 +76,10 @@ input {
     margin-top: 10px;
     max-width: fit-content;
     margin-inline: auto;
+}
+
+@media only screen and (max-width:500px) {
+    #form {
+        max-width: 90vw;
+    }
 }

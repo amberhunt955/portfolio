@@ -18,10 +18,6 @@ html, body {
   color: #DBEBFBff;
 }
 
-h2 {
-  font-size: calc(1.8vw + 1.8vh);
-}
-
 p {
   font-size: calc(1vw + 1vh);
 }

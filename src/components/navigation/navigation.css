@@ -104,16 +104,20 @@
   z-index: 99;
 }
 
-#back-to-top {
-  font-size: calc(1vw + 1vh);
+#lefthand-footer {
+  font-size: calc(0.8vw + 0.8vh);
 }
 
-#lefthand-footer {
+#center-footer {
   max-width: fit-content;
   display: flex;
   justify-content: space-evenly;
   gap: 1vw;
   align-items: center;
+}
+
+#back-to-top {
+  color: #080b13ff;
   font-size: calc(0.8vw + 0.8vh);
 }
 
@@ -121,6 +125,8 @@
   display: none;
 }
 
-#back-to-top {
-  color: #080b13ff;
+@media only screen and (max-width:500px) {
+  #lefthand-footer, #back-to-top {
+    font-size: calc(1.1vw + 1.1vh);
+  }
 }

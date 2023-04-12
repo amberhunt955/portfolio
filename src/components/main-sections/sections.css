@@ -4,6 +4,7 @@
   margin-inline: auto;
   text-align: center;
   line-height: 1;
+  font-size: calc(1.8vw + 1.8vh);
 }
 
 @media only screen and (max-width: 500px) {
@@ -124,13 +125,12 @@
 #projects-section {
   min-height: 100vh;
   max-height: fit-content;
-  max-width: 90vw;
-  margin-inline: auto;
+  max-width: 100vw;
   padding: 0 2vw 40px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: space-between;
+  justify-content: space-between;
+  align-items: center;
   gap: 2vw;
 }
 
@@ -172,8 +172,7 @@
 /* -------- ABOUT SECTION -------- */
 
 #about-section {
-  max-width: 90vw;
-  margin-inline: auto;
+  max-width: 100vw;
   min-height: 100vh;
   padding: 0 2vw 40px;
   display: flex;
@@ -248,12 +247,11 @@
 #contact-section {
   min-height: 100vh;
   max-height: fit-content;
-  max-width: 90vw;
-  margin-inline: auto;
+  max-width: 100vw;
   padding-inline: 0 20px 60px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 

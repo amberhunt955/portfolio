@@ -24,6 +24,7 @@ function About() {
 
         <Avatar id="bio-photo" src={amberPhoto} alt="AI-generated painting of amber" sx={{ width: 300, height: 300 }} />
       </div>
+      
       <DownArrow nextSection="contact-section"/>
     </div>
   );
