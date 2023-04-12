@@ -1,7 +1,7 @@
 import ProjectCard from "../ProjectCard";
 import DownArrow from "../navigation/DownArrow";
 
-import spaceBattle from "./space-battle.jpg"
+import spaceBattle from "../../assets/images/space-battle.jpg"
 
 function Projects() {
   return (

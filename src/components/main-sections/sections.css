@@ -22,7 +22,7 @@
   /* min-width: 100vw;
     max-width: 100vw; */
   margin-top: 50px;
-  background: url("/src/assets/welcome-background-cropped-enhanced.jpg") no-repeat left fixed;
+  background: url("/src/assets/images/welcome-background-large.jpg") no-repeat left fixed;
   background-size: cover;
   /* display: flex; */
 }
@@ -92,7 +92,7 @@
 
 @media only screen and (max-width: 912px) {
     #welcome-section {
-      background: url("/src/assets/welcome-background-cropped-enhanced2.jpg") no-repeat left;
+      background: url("/src/assets/images/welcome-background-small.jpg") no-repeat left;
       background-size: cover;
     }
 
@@ -129,8 +129,8 @@
   padding: 0 2vw 40px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+  align-items: space-between;
   gap: 2vw;
 }
 
@@ -144,7 +144,8 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 2vw;
+  margin-inline: auto;
 }
 
 /* REMOVE SPACE-BETWEEN ON SECTIONS FOR IPAD */
@@ -250,6 +251,9 @@
   max-width: 90vw;
   margin-inline: auto;
   padding-inline: 0 20px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 

@@ -112,7 +112,7 @@
   max-width: fit-content;
   display: flex;
   justify-content: space-evenly;
-  gap: 10px;
+  gap: 1vw;
   align-items: center;
   font-size: calc(0.8vw + 0.8vh);
 }

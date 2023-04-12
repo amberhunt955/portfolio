@@ -1,5 +1,5 @@
 import { Avatar } from "@mui/material";
-import amberPhoto from "./amber-ai.png";
+import amberPhoto from "../../assets/images/amber-ai.png";
 import DownArrow from "../navigation/DownArrow";
 
 function About() {

@@ -17,7 +17,7 @@
 
 .project-card {
     margin-inline: auto;
-    padding: 10px;
+    padding: calc(1vw + 1vh);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -57,7 +57,7 @@
 #form {
     display: flex;
     flex-direction: column;
-    gap: 10px; 
+    gap: calc(0.8vw + 0.8vh); 
     max-width: 400px;
     max-height: 70vh;
     margin-inline: auto;
