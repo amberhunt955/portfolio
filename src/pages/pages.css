@@ -46,7 +46,7 @@
 
 .gallery::after {
   content: "";
-  width: 610px;
+  width: 620px;
 }
 
 .gallery-image {

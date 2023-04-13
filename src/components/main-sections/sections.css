@@ -125,7 +125,6 @@
 }
 
 /* REMOVE SPACE-BETWEEN ON SECTIONS FOR IPAD */
-
 @media only screen and (max-width: 950px) {
   #projects-section {
     justify-content: flex-start;
@@ -157,11 +156,12 @@
 }
 
 #about-content {
+  min-width: 100vw;
   padding-inline: 10vw;
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 5vw;
+  gap: calc(3vw + 3vh);
   padding-top: 10px;
 }
 

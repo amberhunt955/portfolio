@@ -51,11 +51,16 @@
     gap: calc(1.5vw + 1.5vh);
 }
 
-@media only screen and (min-height:1400px) {
+@media only screen and (min-width: 1600px) {
     .project-card {
-        max-width: 350px;
+      height: 700px;
+      width: 510px;
     }
-}
+
+    .project-card > h3, .project-card > p {
+        font-size: 34px;
+    }
+  }
 
 @media only screen and (max-width:500px) {
     .project-card {
