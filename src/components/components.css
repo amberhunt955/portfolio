@@ -53,12 +53,18 @@
 
 @media only screen and (min-width: 1600px) {
     .project-card {
-      height: 700px;
-      width: 510px;
+      min-height: 700px;
+      max-height: 700px;
+      min-width: 510px;
+      max-width: 510px;
     }
 
     .project-card > h3, .project-card > p {
         font-size: 34px;
+    }
+
+    .project-buttons {
+        gap: 10vw;
     }
   }
 
@@ -84,17 +90,22 @@
 #form {
     min-height: 50vh;
     max-height: 800px;
+    max-width: 600px;
     display: flex;
     flex-direction: column;
     gap: calc(1vw + 1vh); 
     padding-bottom: 5vh;
 }
 
+label {
+    font-size: calc(1vw + 1vh);
+}
+
 input, textarea {
     border-radius: 5px;
     padding: 10px 20px;
     min-width: 100%;
-    max-width: 600px;
+    max-width: 100%;
 }
 
 #email-submit {

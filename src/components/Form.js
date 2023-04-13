@@ -26,17 +26,11 @@ function Form() {
 
   return (
     <form ref={form} onSubmit={sendEmail} id="form">
-      <label>Your Name: </label>
+      <label>Your Name: <input type="text" name="user_name" /></label>
 
-      <input type="text" name="user_name" />
+      <label>Your Email: <input type="email" name="user_email" /></label>
 
-      <label>Your Email: </label>
-
-      <input type="email" name="user_email" />
-
-      <label>Message:</label>
-      
-      <textarea name="message" rows="12" cols="50" required/>
+      <label>Message: <textarea name="message" rows="12" cols="50" required/></label>
 
       <Button 
         id="email-submit"

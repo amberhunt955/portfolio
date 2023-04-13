@@ -124,6 +124,13 @@
   gap: calc(2vw + 2vh);
 }
 
+@media only screen and (min-width: 1600px) {
+  #project-display {
+    flex-wrap: nowrap;
+    gap: 20vw;
+  }
+}
+
 /* REMOVE SPACE-BETWEEN ON SECTIONS FOR IPAD */
 @media only screen and (max-width: 950px) {
   #projects-section {
@@ -160,13 +167,14 @@
   padding-inline: 10vw;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
   gap: calc(3vw + 3vh);
   padding-top: 10px;
 }
 
 #about-text {
-  max-width: 800px;
+  max-width: 1000px;
   line-height: 1.4;
   margin-inline: auto;
   text-align: center;

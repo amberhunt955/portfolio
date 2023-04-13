@@ -31,7 +31,7 @@ a {
 }
 
 @media only screen and (max-width:900px) {
-  p, h3 {
+  p, h3, label {
     font-size: 16px;
   }
 }
