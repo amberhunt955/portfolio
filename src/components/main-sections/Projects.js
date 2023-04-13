@@ -21,7 +21,7 @@ function Projects() {
         <ProjectCard
           name="Space Battle"
           src={spaceBattle}
-          description="DOM Manipulation user vs computer luck based game. Very simple styling at the moment. Technologies: Vanilla JavaScript, HTML, and CSS."
+          description="DOM Manipulation user vs computer luck based game; very simple styling. Technologies: Vanilla JavaScript, HTML, and CSS."
           link="https://amberhunt955.github.io/space-battle/"
           code="https://github.com/amberhunt955/space-battle"
         />

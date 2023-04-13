@@ -20,7 +20,7 @@
   max-height: 100vh;
   padding-right: 2vw;
   margin-top: 50px;
-  background: url("/src/assets/images/welcome-background-large.jpg") no-repeat left fixed;
+  background: url("/src/assets/images/welcome-background-large.jpg") no-repeat left;
   background-size: cover;
 }
 
@@ -115,6 +115,7 @@
 }
 
 #project-display {
+  max-width: 100%;;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -165,6 +166,7 @@
 }
 
 #about-text {
+  max-width: 800px;
   line-height: 1.4;
   margin-inline: auto;
   text-align: center;

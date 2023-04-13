@@ -37,19 +37,24 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 2vh;
+    gap: calc(1vw + 1vh);
     text-align: center;
     padding: calc(1vw + 1vh);
     border: 2px solid #90AECBff;
     border-radius: 10px;
     margin-bottom: 10px;
-    font-size: 0.5em;
 } 
 
 .project-buttons {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: calc(1.5vw + 1.5vh);
+}
+
+@media only screen and (min-height:1400px) {
+    .project-card {
+        max-width: 350px;
+    }
 }
 
 @media only screen and (max-width:500px) {
@@ -72,21 +77,19 @@
 /* ======== FORM ======== */
 
 #form {
-    max-width: 50vw;
-    max-height: 70vh;
+    min-height: 50vh;
+    max-height: 800px;
     display: flex;
     flex-direction: column;
-    gap: calc(0.8vw + 0.8vh); 
-    margin-inline: auto;
+    gap: calc(1vw + 1vh); 
+    padding-bottom: 5vh;
 }
 
 input, textarea {
     border-radius: 5px;
     padding: 10px 20px;
-}
-
-input {
     min-width: 100%;
+    max-width: 600px;
 }
 
 #email-submit {
@@ -99,5 +102,6 @@ input {
 @media only screen and (max-width:500px) {
     #form {
         max-width: 90vw;
+        gap: calc(0.8vw + 0.8vh); 
     }
 }
