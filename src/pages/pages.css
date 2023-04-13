@@ -37,6 +37,12 @@
   padding-bottom: 2vh;
 }
 
+@media only screen and (min-width: 1600px) {
+  #media-page, #blog-page, .gallery {
+    gap: 100px;
+  }
+}
+
 @media only screen and (max-width: 540px) {
   .gallery {
     flex-direction: column;

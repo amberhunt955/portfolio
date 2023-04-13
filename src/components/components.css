@@ -64,7 +64,7 @@
     }
 
     .project-buttons {
-        gap: 10vw;
+        gap: 100px
     }
   }
 
@@ -114,6 +114,12 @@ input, textarea {
     max-width: fit-content;
     background-color: #2b5da4ff;
 }
+
+@media only screen and (min-width: 1600px) {
+    #form {
+      gap: 100px;
+    }
+  }
 
 @media only screen and (max-width:500px) {
     #form {
