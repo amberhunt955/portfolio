@@ -1,6 +1,13 @@
+/* ======== RESUME BUTTON ======== */
+
 #resume-button {
     width: fit-content;
+    height: fit-content;
     font-size: calc(1vw + 1vh);
+}
+
+#resume-button:hover {
+    background-color: #2b5da4ff;
 }
 
 @media only screen and (max-width:900px) {
@@ -15,20 +22,28 @@
     }
 }
 
+@media only screen and (max-width:300px) {
+    #resume-button {
+        margin-right: 0;
+    }
+}
+
+/* ======== PROJECT CARD ======== */
+
 .project-card {
-    margin-inline: auto;
-    padding: calc(1vw + 1vh);
+    max-width: 510px;
+    min-height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 1.5vh;
+    gap: 2vh;
     text-align: center;
-    max-width: 510px;
-    min-height: fit-content;
+    padding: calc(1vw + 1vh);
     border: 2px solid #90AECBff;
     border-radius: 10px;
     margin-bottom: 10px;
+    font-size: 0.5em;
 } 
 
 .project-buttons {
@@ -54,12 +69,14 @@
     }
   }
 
+/* ======== FORM ======== */
+
 #form {
+    max-width: 50vw;
+    max-height: 70vh;
     display: flex;
     flex-direction: column;
     gap: calc(0.8vw + 0.8vh); 
-    max-width: 50vw;
-    max-height: 70vh;
     margin-inline: auto;
 }
 
@@ -74,8 +91,9 @@ input {
 
 #email-submit {
     margin-top: 10px;
-    max-width: fit-content;
     margin-inline: auto;
+    max-width: fit-content;
+    background-color: #2b5da4ff;
 }
 
 @media only screen and (max-width:500px) {

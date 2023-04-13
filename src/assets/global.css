@@ -18,7 +18,11 @@ html, body {
   color: #DBEBFBff;
 }
 
-p {
+h1 {
+  font-size: calc(3vw + 3vh);
+}
+
+p, h3 {
   font-size: calc(1vw + 1vh);
 }
 
@@ -27,7 +31,7 @@ a {
 }
 
 @media only screen and (max-width:900px) {
-  p {
+  p, h3 {
     font-size: 16px;
   }
 }

@@ -14,7 +14,6 @@ function Form() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-
     emailjs.sendForm(serviceID, templateID, form.current, publicKey)
       .then((result) => {
           console.log(result.text);
@@ -24,14 +23,21 @@ function Form() {
           alert("Uh oh - your email has NOT been submitted. We apologize for the technical difficulties.");
       });
     }
+
   return (
     <form ref={form} onSubmit={sendEmail} id="form">
       <label>Your Name: </label>
+
       <input type="text" name="user_name" />
+
       <label>Your Email: </label>
+
       <input type="email" name="user_email" />
+
       <label>Message:</label>
+      
       <textarea name="message" rows="12" cols="50" required/>
+
       <Button 
         id="email-submit"
         variant="contained" 
