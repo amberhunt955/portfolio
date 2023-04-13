@@ -124,12 +124,12 @@
   gap: calc(2vw + 2vh);
 }
 
-@media only screen and (min-width: 1600px) {
+/* @media only screen and (min-width: 1600px) {
   #project-display {
     flex-wrap: nowrap;
     gap: 200px;
   }
-}
+} */
 
 /* REMOVE SPACE-BETWEEN ON SECTIONS FOR IPAD */
 @media only screen and (max-width: 950px) {
@@ -193,11 +193,11 @@
   text-align: center;
 }
 
-@media only screen and (min-width: 1600px) {
+/* @media only screen and (min-width: 1600px) {
   #about-content {
     gap: 300px;
   }
-}
+} */
 
 @media only screen and (max-width: 950px) {
   #about-section {

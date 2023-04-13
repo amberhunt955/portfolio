@@ -51,7 +51,7 @@
     gap: calc(1.5vw + 1.5vh);
 }
 
-@media only screen and (min-width: 1600px) {
+/* @media only screen and (min-width: 1600px) {
     .project-card {
       min-height: 700px;
       max-height: 700px;
@@ -66,7 +66,7 @@
     .project-buttons {
         gap: 100px
     }
-  }
+  } */
 
 @media only screen and (max-width:500px) {
     .project-card {
@@ -115,11 +115,11 @@ input, textarea {
     background-color: #2b5da4ff;
 }
 
-@media only screen and (min-width: 1600px) {
+/* @media only screen and (min-width: 1600px) {
     #form {
       gap: 100px;
     }
-  }
+  } */
 
 @media only screen and (max-width:500px) {
     #form {
