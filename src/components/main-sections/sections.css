@@ -90,12 +90,6 @@
     }
   }
 
-@media only screen and (max-width: 500px) {
-    #welcome-content {
-      justify-content: space-between;
-    }
-  }
-
 /* -------- PROJECTS SECTION -------- */
 
 #projects-section {
@@ -107,6 +101,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  gap: 15px;
 }
 
 #project-text {
@@ -123,13 +118,6 @@
   align-items: center;
   gap: calc(2vw + 2vh);
 }
-
-/* @media only screen and (min-width: 1600px) {
-  #project-display {
-    flex-wrap: nowrap;
-    gap: 200px;
-  }
-} */
 
 /* REMOVE SPACE-BETWEEN ON SECTIONS FOR IPAD */
 @media only screen and (max-width: 950px) {
@@ -158,7 +146,7 @@
   padding: 0 2vw 40px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 
