@@ -1,5 +1,4 @@
 import ResumeButton from "../ResumeButton";
-import LearnMore from "../navigation/LearnMore";
 
 function Welcome() {
   return (
@@ -15,7 +14,6 @@ function Welcome() {
 
         <ResumeButton />
 
-        <LearnMore />
       </div>
     </div>
   );

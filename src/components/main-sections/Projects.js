@@ -1,6 +1,7 @@
+// import components
 import ProjectCard from "../ProjectCard";
-import DownArrow from "../navigation/DownArrow";
 
+// import images
 import spaceBattle from "../../assets/images/space-battle.jpg"
 
 function Projects() {
@@ -26,8 +27,7 @@ function Projects() {
           code="https://github.com/amberhunt955/space-battle"
         />
       </div>
-      
-      <DownArrow nextSection="about-section" />
+
     </div>
   );
 }
