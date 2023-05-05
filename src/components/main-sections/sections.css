@@ -7,11 +7,11 @@
 }
 
 @media only screen and (max-width: 500px) {
-    .section-header {
-      line-height: 1.7;
-      padding-top: 35px;
-    }
+  .section-header {
+    line-height: 1.7;
+    padding-top: 35px;
   }
+}
 
 /* -------- WELCOME SECTION -------- */
 
@@ -20,7 +20,8 @@
   max-height: 100vh;
   padding-right: 2vw;
   margin-top: 50px;
-  background: url("/src/assets/images/welcome-background-large.jpg") no-repeat left;
+  background: url("/src/assets/images/welcome-background-large.jpg") no-repeat
+    left;
   background-size: cover;
 }
 
@@ -41,20 +42,7 @@
   text-align: center;
   padding: 20px 10px;
   position: relative;
-  z-index: 99;
-}
-
-#welcome-text::before {
-  content: "";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  filter: blur(10px);
-  background: radial-gradient(circle, rgba(144, 174, 203, 0.8) 0%, rgba(144, 174, 203,0.3) 100%);
-  border-radius: 100px;
+  text-shadow: 1px 1px 1px #000;
 }
 
 #hi {
@@ -75,20 +63,21 @@
 }
 
 @media only screen and (max-width: 912px) {
-    #welcome-section {
-      background: url("/src/assets/images/welcome-background-small.jpg") no-repeat left;
-      background-size: cover;
-    }
-
-    #welcome-content {
-      max-width: fit-content;
-      min-height: 100vh;
-      padding-right: none;
-      padding-top: 3vh;
-      float: right;
-      gap: 2vh;
-    }
+  #welcome-section {
+    background: url("/src/assets/images/welcome-background-small.jpg") no-repeat
+      left;
+    background-size: cover;
   }
+
+  #welcome-content {
+    max-width: fit-content;
+    min-height: 100vh;
+    padding-right: none;
+    padding-top: 3vh;
+    float: right;
+    gap: 2vh;
+  }
+}
 
 /* -------- PROJECTS SECTION -------- */
 
@@ -110,7 +99,7 @@
 }
 
 #project-display {
-  max-width: 100%;;
+  max-width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -129,7 +118,7 @@
 
 @media only screen and (max-width: 500px) {
   #project-text {
-    max-width: 80vw; 
+    max-width: 80vw;
   }
 
   #project-display {
@@ -175,7 +164,7 @@
   position: absolute;
   opacity: 0.7;
   background-color: #080b13ff;
-  color: #DBEBFBff;
+  color: #dbebfbff;
   display: flex;
   align-items: center;
   text-align: center;
@@ -192,13 +181,13 @@
     justify-content: flex-start;
     gap: 2vh;
   }
-  
+
   #about-content {
     flex-direction: column-reverse;
   }
 }
 
-@media only screen and (max-width:300px) {
+@media only screen and (max-width: 300px) {
   #bio-photo {
     width: 200px;
     height: 200px;
