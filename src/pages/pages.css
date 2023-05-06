@@ -21,6 +21,10 @@
   text-align: center;
 }
 
+#media-page-text {
+  max-width: 660px;
+}
+
 #api-link {
   color: #619CCCff;
 }

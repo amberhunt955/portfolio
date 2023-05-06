@@ -62,20 +62,23 @@
   color: #080b13ff;
 }
 
-@media only screen and (max-width: 912px) {
-  #welcome-section {
-    background: url("/src/assets/images/welcome-background-small.jpg") no-repeat
-      left;
-    background-size: cover;
-  }
-
+@media only screen and (max-width: 1080px) {
   #welcome-content {
     max-width: fit-content;
     min-height: 100vh;
     padding-right: none;
     padding-top: 3vh;
     float: right;
-    gap: 2vh;
+    gap: 20vh;
+    justify-content: flex-start;
+  }
+}
+
+@media only screen and (max-width: 912px) {
+  #welcome-section {
+    background: url("/src/assets/images/welcome-background-small.jpg") no-repeat
+      left;
+    background-size: cover;
   }
 }
 

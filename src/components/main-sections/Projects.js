@@ -28,14 +28,6 @@ function Projects() {
           link="https://amberhunt955.github.io/maze-game/"
           code="https://github.com/amberhunt955/maze-game"
         />
-
-        <ProjectCard
-          name="Space Battle"
-          src={spaceBattle}
-          description="DOM Manipulation user vs computer luck based game; very simple styling. Technologies: Vanilla JavaScript, HTML, and CSS."
-          link="https://amberhunt955.github.io/space-battle/"
-          code="https://github.com/amberhunt955/space-battle"
-        />
       </div>
 
     </div>
