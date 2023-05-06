@@ -2,7 +2,6 @@
 import ProjectCard from "../ProjectCard";
 
 // import images
-import spaceBattle from "../../assets/images/space-battle.jpg"
 import eventTracker from "../../assets/images/event-tracker.png"
 
 function Projects() {
