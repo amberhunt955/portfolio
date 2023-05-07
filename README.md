@@ -1,12 +1,6 @@
 <h1 align="center" id="readme-top">Amber Hunt's Portfolio</h1>
 
-<p align="center">Welcome to my personal portfolio page!</p>
-
-<!-- ABOUT THE PROJECT -->
-
-## About The Project
-
-<p>Here you can explore a showcase of my latest projects as I continually update them.</p>
+<p align="center">Welcome to my personal portfolio page! Here you can explore a showcase of my latest projects as I continually update them.</p>
 
 <!-- TECHNOLOGIES USED -->
 
@@ -20,21 +14,25 @@
 
 ## What did I learn while creating this website?
 
-<p>CSS, CSS, CSS! As much as I love CSS, I spent a lot of time making mistakes - but also learning from them. <br/>
+<p>Probably the biggest learning curve with this project was CSS. I spent a lot of time making mistakes here - but also learning from them. This portfolio project in particular has contributed to a massive improvement of my CSS skills, and it's exciting to finally be able to bring the designs I envision to reality.<br/>
 
-The background photo on the main page took me a long time to get right. I have quite a few ~experimental~ commits because I couldn't figure out why the page would appear one way for phones in Chrome dev tools, but another way on my actual device. Eventually I realized that for some reason, apple devices in particular were displaying the "fixed" position differently. So, removing the fixed position for mobile screens solved my issue.
+My NavBar is simple, but really helped me understand how useState works. Between the drop down menu on the home page, and the changing icons, it was a great learning process. My footer was also a great lesson for useState and useEffect.<br/>
+
+I have spent far, far too much time trying to make the website design look good across devices. Lesson learned, and next time I'll definitely be taking a mobile-first approach.<br/>
+
+Some notes:<br/>
+
+The background photo on the main page took me a long time to get right. I have quite a few experimental commits from when I couldn't figure out why the page was appearing one way in Chrome dev tools, but another way on my actual device. Eventually I realized that apple mobile devices in particular were displaying the "fixed" position differently. As this feature wasn't entirely necessary, removing the fixed position for mobile sized screens solved my issue.
 <br/>
 
-Another issue I THOUGHT I had was with flex box gaps on larger screens. For some reason, they wouldn't display, but eventually I realized the version of Safari on my parent's older mac just didn't support flex box gaps.
-<br/>
-
-I'm pretty proud of my NavBar. It is simple but it also really helped me understand how useState hooks. Between the drop down menu on the home page and the changing icons, it was a great learning process. My footer was also a great lesson for useState and useEffect.</p>
+Another issue I THOUGHT I had was with flex box gaps on larger screens. For some reason, they wouldn't display, but eventually I realized the version of Safari on the older mac I was using just didn't support flex box gaps.
+</p>
 
 <!-- FUTURE IMPROVEMENTS -->
 
 ## What's coming next?
 
-There are still a lot of improvements I would like to make.
+There are still a lot of improvements I would like to make:
 
 <li>On the home page, I want to have the content fade in as you scroll to each section</li>
 
