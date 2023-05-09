@@ -22,10 +22,9 @@ I have spent far, far too much time trying to make the website design look good 
 
 Some notes:<br/>
 
-The background photo on the main page took me a long time to get right. I have quite a few experimental commits from when I couldn't figure out why the page was appearing one way in Chrome dev tools, but another way on my actual device. Eventually I realized that apple mobile devices in particular were displaying the "fixed" position differently. As this feature wasn't entirely necessary, removing the fixed position for mobile sized screens solved my issue.
-<br/>
+<li>The background photo on the main page took me a long time to get right. I have quite a few experimental commits from when I couldn't figure out why the page was appearing one way in Chrome dev tools, but another way on my actual device. Eventually I realized that apple mobile devices in particular were displaying the "fixed" position differently. As this feature wasn't entirely necessary, removing the fixed position for mobile sized screens solved my issue.</li>
 
-Another issue I THOUGHT I had was with flex box gaps on larger screens. For some reason, they wouldn't display, but eventually I realized the version of Safari on the older mac I was using just didn't support flex box gaps.
+<li>Another issue I THOUGHT I had was with flex box gaps on larger screens. For some reason, they wouldn't display, but eventually I realized the version of Safari on the older mac I was using just didn't support flex box gaps.</li>
 </p>
 
 <!-- FUTURE IMPROVEMENTS -->
