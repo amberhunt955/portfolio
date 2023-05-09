@@ -15,7 +15,6 @@ import "./assets/global.css";
 import "./components/navigation/navigation.css";
 import "./pages/pages.css";
 import "./components/main-sections/sections.css";
-import "./components/components.css";
 
 function App() {
 

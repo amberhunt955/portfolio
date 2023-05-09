@@ -1,0 +1,37 @@
+.ProjectCard {
+  max-width: 510px;
+  min-height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: calc(1vw + 1vh);
+  text-align: center;
+  padding: calc(1vw + 1vh);
+  border: 2px solid #90aecbff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.projectButtons {
+  display: flex;
+  flex-direction: row;
+  gap: calc(1.5vw + 1.5vh);
+}
+
+@media only screen and (max-width: 500px) {
+  .ProjectCard {
+    max-width: 350px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .ProjectCard {
+    min-width: fit-content;
+  }
+
+  .projectPhoto {
+    width: 180px;
+    height: 120px;
+  }
+}

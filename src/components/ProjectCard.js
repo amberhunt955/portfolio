@@ -1,16 +1,17 @@
+import styles from "./ProjectCard.module.css"
 import { Button } from "@mui/material";
 import { OpenInNew } from "@mui/icons-material";
 
 function ProjectCard(props) {
   return (
-    <div className="project-card">
+    <div className={styles.ProjectCard}>
       <h3>{props.name}</h3>
 
-      <img className="project-photo" src={props.src} alt={props.name} width="250px" height="150px" />
+      <img className={styles.projectPhoto} src={props.src} alt={props.name} width="250px" height="150px" />
 
       <p>{props.description}</p>
 
-      <div className="project-buttons">
+      <div className={styles.projectButtons}>
         <Button variant="outlined" size="small" href={props.link} target="_blank" rel="noreferrer" endIcon={<OpenInNew />}>
           View Project
         </Button>

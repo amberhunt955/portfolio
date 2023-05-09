@@ -1,13 +1,15 @@
+import resume from "../assets/AmberHuntResume.pdf";
+
+// styling
+import styles from "./ResumeButton.module.css"
 import { Button } from "@mui/material";
 import { Download } from "@mui/icons-material";
-
-import resume from "../assets/AmberHuntResume.pdf";
 
 function ResumeButton() {
   return (
     <Button
       id="resume-button"
-      className="mui-button"
+      className={`mui-button ${styles.ResumeButton}`}
       variant="contained"
       sx={{ background: "#080B13ff", color: "#DBEBFBff" }}
       disableElevation

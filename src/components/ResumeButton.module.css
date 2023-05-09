@@ -1,0 +1,27 @@
+.ResumeButton {
+    width: fit-content;
+    height: fit-content;
+    font-size: calc(1vw + 1vh);
+}
+
+.ResumeButton:hover {
+    background-color: #2b5da4ff;
+}
+
+@media only screen and (max-width:900px) {
+    .ResumeButton {
+        margin-right: 25px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .ResumeButton {
+        margin-right: 5px;
+    }
+}
+
+@media only screen and (max-width:300px) {
+    .ResumeButton {
+        margin-right: 0;
+    }
+}

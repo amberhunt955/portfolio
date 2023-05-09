@@ -1,0 +1,34 @@
+.Form {
+    min-height: 50vh;
+    max-height: 800px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: calc(1vw + 1vh); 
+    padding-bottom: 5vh;
+}
+
+.Form label {
+    font-size: calc(1vw + 1vh);
+}
+
+.Form input, .Form textarea {
+    border-radius: 5px;
+    padding: 10px 20px;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.Form #email-submit {
+    margin-top: 10px;
+    margin-inline: auto;
+    max-width: fit-content;
+    background-color: #2b5da4ff;
+}
+
+@media only screen and (max-width:500px) {
+    .Form {
+        max-width: 90vw;
+        gap: calc(0.8vw + 0.8vh); 
+    }
+}

@@ -1,4 +1,6 @@
 import { useState, useMemo } from "react";
+
+// data
 import { getDogPhoto } from "../services/dog-api";
 
 function GalleryPhoto() {
