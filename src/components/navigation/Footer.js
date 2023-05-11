@@ -31,7 +31,7 @@ function Footer() {
       <p id="lefthand-footer">© Amber Hunt 2023</p>
 
       <div id="center-footer">
-        <a href="https://www.linkedin.com/in/amber-hunt-90b612263/" target="_blank" rel="noreferrer">
+        <a href="https://www.linkedin.com/in/amberhunt955/" target="_blank" rel="noreferrer">
           <LinkedIn />
         </a>
         <a href="https://github.com/amberhunt955" target="_blank" rel="noreferrer">

@@ -33,6 +33,8 @@ Some notes:<br/>
 
 There are still a lot of improvements I would like to make:
 
+<li>As I've expanded my skills since creating this project, I'm currently in the process of refactoring my code and making it cleaner and more readable to other developers</li>
+
 <li>On the home page, I want to have the content fade in as you scroll to each section</li>
 
 <li>I'd love for the footer to gracefully move into position on scroll up, rather than just appearing</li>
@@ -53,7 +55,7 @@ This project is hosted on [Netlify](https://amberhunt.netlify.app).
 
 ## Contact
 
-Find me on [LinkedIn](https://www.linkedin.com/in/amber-hunt-90b612263/).
+Find me on [LinkedIn](https://www.linkedin.com/in/amberhunt955/).
 
 <!-- RESOURCES -->
 

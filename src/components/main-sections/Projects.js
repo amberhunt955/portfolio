@@ -16,7 +16,6 @@ function Projects() {
           name="Event Tracker"
           src={eventTracker}
           description="Full stack app tracking the birthdays, anniversaries and special occasions of people you care about most. Technologies: MongoDB, Express, React, Node."
-          link="https://event-tracker.herokuapp.com/"
           code="https://github.com/amberhunt955/special-day-tracker"
         />
 

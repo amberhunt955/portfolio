@@ -12,9 +12,9 @@ function ProjectCard(props) {
       <p>{props.description}</p>
 
       <div className={styles.projectButtons}>
-        <Button variant="outlined" size="small" href={props.link} target="_blank" rel="noreferrer" endIcon={<OpenInNew />}>
+        {props.link ? <Button variant="outlined" size="small" href={props.link} target="_blank" rel="noreferrer" endIcon={<OpenInNew />}>
           View Project
-        </Button>
+        </Button> : ""}
 
         <Button variant="outlined" size="small" href={props.code} target="_blank" rel="noreferrer" endIcon={<OpenInNew />}>
           Source Code
