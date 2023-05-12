@@ -3,6 +3,7 @@ import ProjectCard from "../ProjectCard";
 
 // import images
 import eventTracker from "../../assets/images/event-tracker.png"
+import menuMagic from "../../assets/images/menu-magic.png"
 
 function Projects() {
   return (
@@ -13,10 +14,10 @@ function Projects() {
 
       <div id="project-display">
       <ProjectCard
-          name="Event Tracker"
+          name="Care Calendar"
           src={eventTracker}
           description="Full stack app tracking the birthdays, anniversaries and special occasions of people you care about most. Technologies: MongoDB, Express, React, Node."
-          code="https://github.com/amberhunt955/special-day-tracker"
+          code="https://github.com/amberhunt955/care-calendar"
         />
 
         <ProjectCard
@@ -25,6 +26,14 @@ function Projects() {
           description="Two-player desktop game in a depth-first search randomly generated maze. Technologies: Vanilla JavaScript, HTML, and CSS."
           link="https://amberhunt955.github.io/maze-game/"
           code="https://github.com/amberhunt955/maze-game"
+        />
+
+        <ProjectCard
+          name="Menu Magic"
+          src={menuMagic}
+          description="A simple project that pulls data from an API to generate random recipes. Technologies: React, CSS, Vite."
+          link="https://whatsfordinnertoday.netlify.app/"
+          code="https://github.com/amberhunt955/vite-recipe-app"
         />
       </div>
 
