@@ -1,7 +1,7 @@
 import { useState, useMemo } from "react";
 
 // data
-import { getDogPhoto } from "../services/dog-api";
+import { getDogPhoto } from "../../services/dog-api";
 
 function GalleryPhoto() {
   const [dogPhoto, setDogPhoto] = useState(null);

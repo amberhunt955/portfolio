@@ -14,7 +14,7 @@ import Blog from "./pages/Blog";
 import "./assets/global.css";
 import "./components/navigation/navigation.css";
 import "./pages/pages.css";
-import "./components/main-sections/sections.css";
+import "./components/Sections/sections.css";
 
 function App() {
 

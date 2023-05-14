@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 
-import Welcome from "../components/main-sections/Welcome";
-import Projects from "../components/main-sections/Projects";
-import About from "../components/main-sections/About";
-import Contact from "../components/main-sections/Contact";
+import Welcome from "../components/Sections/Welcome";
+import Projects from "../components/Sections/Projects";
+import About from "../components/Sections/About";
+import Contact from "../components/Sections/Contact";
 
 function Main() {
     useEffect(() => {

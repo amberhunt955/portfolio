@@ -1,5 +1,5 @@
 // import components
-import ProjectCard from "../ProjectCard";
+import ProjectCard from "../ProjectCard/ProjectCard";
 
 // import images
 import eventTracker from "../../assets/images/event-tracker.png"

@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+
+// styling
 import { Button } from "@mui/material";
 import { GitHub, LinkedIn } from "@mui/icons-material";
 

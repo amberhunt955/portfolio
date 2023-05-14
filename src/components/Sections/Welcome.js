@@ -1,4 +1,4 @@
-import ResumeButton from "../ResumeButton";
+import ResumeButton from "../ResumeButton/ResumeButton";
 
 function Welcome() {
   return (

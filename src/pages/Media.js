@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-import GalleryPhoto from "../components/GalleryPhoto";
+import GalleryPhoto from "../components/GalleryPhoto/GalleryPhoto";
 
 function Media() {
 

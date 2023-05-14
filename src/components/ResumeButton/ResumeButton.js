@@ -1,4 +1,4 @@
-import resume from "../assets/AmberHuntResume.pdf";
+import resume from "../../assets/AmberHuntResume.pdf";
 
 // styling
 import styles from "./ResumeButton.module.css"
