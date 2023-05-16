@@ -4,6 +4,7 @@ import ProjectCard from "../ProjectCard/ProjectCard";
 // import images
 import eventTracker from "../../assets/images/event-tracker.png"
 import menuMagic from "../../assets/images/menu-magic.png"
+import codeWithAmber from "../../assets/images/code-with-amber.png"
 
 function Projects() {
   return (
@@ -13,6 +14,14 @@ function Projects() {
       <p id="project-text">Explore some of my recent projects and discover how I'm evolving my skills as a web developer.</p>
 
       <div id="project-display">
+      <ProjectCard
+          name="Code with Amber"
+          src={codeWithAmber}
+          description="Professional blog documenting my personal coding journey. Frontend only, but I'm actively working on connecting to a database. Technologies: React, Vite."
+          link="https://codewithamber.netlify.app/"
+          code="https://github.com/amberhunt955/code-with-amber"
+        />
+
       <ProjectCard
           name="Care Calendar"
           src={eventTracker}
@@ -31,7 +40,7 @@ function Projects() {
         <ProjectCard
           name="Menu Magic"
           src={menuMagic}
-          description="A simple project that pulls data from an API to generate random recipes. Technologies: React, CSS, Vite."
+          description="Need to decide on dinner? This is a simple project that pulls data from an API to generate random recipes. Technologies: React, CSS, Vite."
           link="https://whatsfordinnertoday.netlify.app/"
           code="https://github.com/amberhunt955/vite-recipe-app"
         />

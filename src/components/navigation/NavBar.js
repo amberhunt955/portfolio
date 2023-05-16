@@ -90,11 +90,11 @@ function NavBar() {
           </Button>
         </PageLink>
 
-        <PageLink to="/blog" style={{ textDecoration: "none" }}>
+        {/* <PageLink to="/blog" style={{ textDecoration: "none" }}>
           <Button onClick={handleClick} id="fade-button" style={{ color: "black" }}>
             Blog
           </Button>
-        </PageLink>
+        </PageLink> */}
       </section>
     </nav>
   );

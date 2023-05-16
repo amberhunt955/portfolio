@@ -8,7 +8,6 @@ import Footer from "./components/Navigation/Footer";
 // Pages
 import Main from "./pages/Main";
 import Media from "./pages/Media";
-import Blog from "./pages/Blog";
 
 // Styling
 import "./assets/global.css";
@@ -25,7 +24,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/media" element={<Media />} />
-        <Route path="/blog" element={<Blog />} />
       </Routes>
 
       <Footer />
