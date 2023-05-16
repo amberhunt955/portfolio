@@ -2,8 +2,8 @@
 import { Routes, Route } from "react-router-dom";
 
 // Components
-import NavBar from "./components/Navigation/NavBar";
-import Footer from "./components/Navigation/Footer";
+import NavBar from "./components/navigation/NavBar";
+import Footer from "./components/navigation/Footer";
 
 // Pages
 import Main from "./pages/Main";
@@ -11,7 +11,7 @@ import Media from "./pages/Media";
 
 // Styling
 import "./assets/global.css";
-import "./components/Navigation/navigation.css";
+import "./components/navigation/navigation.css";
 import "./pages/pages.css";
 import "./components/Sections/sections.css";
 
