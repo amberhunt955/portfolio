@@ -9,17 +9,14 @@ import { Send } from "@mui/icons-material";
 function Form() {
   const form = useRef();
 
-  const publicKey = process.env.REACT_APP_PUBLIC_KEY;
-  const serviceID = process.env.REACT_APP_SERVICE_ID;
-  const templateID = process.env.REACT_APP_TEMPLATE_ID;
-
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(serviceID, templateID, form.current, publicKey).then(
+    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_PUBLIC_KEY).then(
       (result) => {
         console.log(result.text);
         alert("Your email has been submitted.");
+        window.location.reload()
       },
       (error) => {
         console.log(error.text);
