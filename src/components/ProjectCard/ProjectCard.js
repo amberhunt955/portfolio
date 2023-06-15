@@ -16,9 +16,9 @@ function ProjectCard(props) {
           View Project
         </Button> : ""}
 
-        <Button variant="outlined" size="small" href={props.code} target="_blank" rel="noreferrer" endIcon={<OpenInNew />}>
+        {props.code ? <Button variant="outlined" size="small" href={props.code} target="_blank" rel="noreferrer" endIcon={<OpenInNew />}>
           Source Code
-        </Button>
+        </Button> : "" }
       </div>
     </div>
   );
