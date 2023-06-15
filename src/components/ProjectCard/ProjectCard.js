@@ -7,7 +7,7 @@ function ProjectCard(props) {
     <div className={styles.ProjectCard}>
       <h3>{props.name}</h3>
 
-      <img className={styles.projectPhoto} src={props.src} alt={props.name} width="250px" height="150px" />
+      <img className={styles.projectPhoto} src={props.src} alt={props.name} width="280px" height="150px" />
 
       <p>{props.description}</p>
 
