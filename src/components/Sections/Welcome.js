@@ -9,7 +9,7 @@ function Welcome() {
 
           <span id="name">Amber Hunt.</span>
 
-          <span id="what-do">I build dynamic web applications.</span>
+          <span id="what-do">I'm a Software Engineer!</span>
         </h1>
 
         <ResumeButton />
